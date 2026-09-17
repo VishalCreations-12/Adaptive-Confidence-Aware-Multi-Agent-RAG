@@ -196,41 +196,45 @@ Evaluated on 20 internal benchmark queries across 8 query categories (Top-K = 3)
 ## 📁 Repository Structure
 
 ```text
-.
-├── config.py                                 # Hyperparameters, paths, and confidence weights
+..
 ├── app.py                                    # Streamlit web application & research dashboard
+├── config.py                                 # Hyperparameters, paths, and confidence weights
 ├── requirements.txt                          # Python dependencies
-├── PROJECT_RESEARCH_ANALYSIS.md              # System research analysis
-├── RESEARCH_RESULTS.md                       # Quantitative results documentation
-├── V2_ADAPTIVE_LEARNING.md                   # V2 ML classifier documentation
-├── FINAL_PROJECT_STATUS.md                   # System completion matrix
-├── REPRODUCIBILITY.md                        # Reproduction instructions
 ├── README.md                                 # Project documentation
-├── run_app.bat                               # Windows launcher script for web app
-├── run_tests.bat                             # Windows launcher script for test suite
-├── run_experiments.bat                       # Windows launcher script for master experiments
+├── RESEARCH_RESULTS.md                       # Quantitative evaluation results
+├── PROJECT_RESEARCH_ANALYSIS.md              # System research analysis
+├── V2_ADAPTIVE_LEARNING.md                   # V2 adaptive ML strategy documentation
+├── REPRODUCIBILITY.md                        # Reproduction instructions
+│
+├── run_app.bat                               # Launch Streamlit application
+├── run_tests.bat                             # Run automated tests
+├── run_experiments.bat                       # Run research experiments
+│
 ├── src/                                      # Main Python source package
-│   ├── ingestion/                            # PDF (pypdf) & TXT parser & chunker
-│   ├── query_analysis/                       # Regex Query Trait Analyzer
-│   ├── retrieval/                            # BM25, Semantic FAISS & MinMax Hybrid agents
-│   ├── judge/                                # Evidence Judge component
-│   ├── confidence/                           # Multi-factor Confidence Scorer
-│   ├── generation/                           # Extractive Grounded Answer Generator
-│   ├── memory/                               # Strategy Memory & Adaptive Selector (RandomForest)
-│   └── evaluation/                           # Benchmark loader, metrics, ablation & statistical tests
+│   ├── ingestion/                            # PDF/TXT parsing and chunking
+│   ├── query_analysis/                       # Query trait analysis
+│   ├── retrieval/                            # BM25, Semantic FAISS & Hybrid retrieval
+│   ├── judge/                                # Evidence Judge
+│   ├── confidence/                           # Evidence Confidence Scorer
+│   ├── generation/                           # Grounded answer generation
+│   ├── memory/                               # Strategy Memory & RandomForest selector
+│   └── evaluation/                           # Metrics, benchmark, ablation & statistics
+│
 ├── data/
-│   ├── benchmarks/                           # Benchmark queries & ground truth annotations
-│   ├── cache/                                # Knowledge base document cache
-│   ├── memory/                               # Strategy memory JSON store & pickled ML model
-│   └── results/                              # Exported CSV, JSON results & research plot graphics
+│   ├── benchmarks/                           # Benchmark queries & ground truth
+│   └── results/                              # Evaluation results and research plots
+│       └── plots/
+│
 ├── docs/
-│   └── screenshots/                          # Application screenshot artifacts
-├── sample_data/                              # Synthetic benchmark PDF generator & test questions
+│   └── screenshots/                          # Final application screenshots
+│
+├── sample_data/                              # Sample knowledge-base/test data
+│
 ├── scripts/
 │   ├── run_full_experiments.py               # Master experiment runner
-│   └── verify_pipeline.py                    # 8-category end-to-end pipeline test script
-└── tests/                                    # Automated Pytest suite (13 test cases)
-```
+│   └── verify_pipeline.py                    # End-to-end pipeline verification
+│
+└── tests/                                    # Automated Pytest test suite```
 
 ---
 
