@@ -36,7 +36,7 @@ Traditional retrieval literature focuses on individual algorithms (BM25, FAISS, 
 
 ## 📐 Proposed V2 System Architecture
 
-```
+```text
                                   USER QUERY
                                       │
                                       ▼
@@ -97,18 +97,27 @@ Traditional retrieval literature focuses on individual algorithms (BM25, FAISS, 
 
 1. **BM25 Lexical Retriever (`rank_bm25`):** Tokenizes queries into lowercase alphanumeric tokens for exact keyword frequency matching.
 2. **Semantic Vector Retriever (`sentence-transformers/all-MiniLM-L6-v2` + `FAISS`):** Generates 384-dimensional dense vectors with L2-normalized Cosine similarity in a local FAISS index.
-3. **MinMax Hybrid Fusion Retriever:** MinMax normalizes BM25 and Semantic scores to $[0, 1]$ and merges them:
-   $$\text{Combined Score} = (0.5 \times \text{Norm\_BM25}) + (0.5 \times \text{Norm\_Semantic})$$
+3. **MinMax Hybrid Fusion Retriever:** MinMax normalizes BM25 and Semantic scores to [0.0, 1.0] and merges them:
+
+```text
+MinMax(score) = (score - min_score) / (max_score - min_score)
+Combined_Score = (0.5 * BM25_norm) + (0.5 * Semantic_norm)
+```
+
 4. **Evidence Judge Engine:** Evaluates inter-agent consensus, calculates keyword coverage, filters redundant 100-character snippet prefixes, and enforces candidate thresholds.
-5. **Evidence Confidence Scorer:** 4-factor scoring algorithm bound to $[0.15, 0.98]$:
-   $$\text{Confidence} = 0.35 \cdot F_{\text{strength}} + 0.25 \cdot F_{\text{consensus}} + 0.25 \cdot F_{\text{coverage}} + 0.15 \cdot F_{\text{spread}}$$
+5. **Evidence Confidence Scorer:** 4-factor scoring algorithm bound between 0.15 and 0.98:
+
+```text
+Confidence = (0.35 * Score_Strength) + (0.25 * Consensus_Ratio) + (0.25 * Keyword_Coverage) + (0.15 * Score_Spread)
+```
+
 6. **Extractive Grounded Answer Generator:** Synthesizes bulleted sentence extractions directly from judged evidence chunks with explicit page and chunk citations.
 
 ---
 
 ## 📊 Five-Way Baseline Benchmark Quantitative Results
 
-Evaluated on 20 internal benchmark queries across 8 query categories ($K = 3$):
+Evaluated on 20 internal benchmark queries across 8 query categories (Top-K = 3):
 
 | System Name | Precision@3 | Recall@3 | MRR | nDCG@3 | Context Relevance | Strategy Accuracy | Evidence Confidence | Latency (ms) |
 |---|---|---|---|---|---|---|---|---|
@@ -153,40 +162,40 @@ Evaluated on 20 internal benchmark queries across 8 query categories ($K = 3$):
 ## 🖼️ Application Screenshots
 
 ### 1. Main Application Dashboard
-![Dashboard](docs/screenshots/01_dashboard.png)
+![Main Application Dashboard](docs/screenshots/01_dashboard.png)
 
 ### 2. Knowledge Base Ingestion & Status
-![Document Ingestion](docs/screenshots/02_document_ingestion.png)
+![Document Ingestion Status](docs/screenshots/02_document_ingestion.png)
 
 ### 3. Query Trait Analysis
-![Query Analysis](docs/screenshots/03_query_analysis.png)
+![Query Trait Analysis](docs/screenshots/03_query_analysis.png)
 
 ### 4. Multi-Agent Retrieval Outputs
-![Retrieval Agents](docs/screenshots/04_retrieval_agents.png)
+![Multi-Agent Retrieval Outputs](docs/screenshots/04_retrieval_agents.png)
 
 ### 5. Evidence Judge Breakdown
-![Evidence Judge](docs/screenshots/05_evidence_judge.png)
+![Evidence Judge Evaluation](docs/screenshots/05_evidence_judge.png)
 
 ### 6. Evidence Confidence Meter
-![Confidence Score](docs/screenshots/06_confidence.png)
+![Evidence Confidence Score](docs/screenshots/06_confidence.png)
 
 ### 7. Grounded Extractive Answer Generation
-![Grounded Answer](docs/screenshots/07_grounded_answer.png)
+![Grounded Answer Generation](docs/screenshots/07_grounded_answer.png)
 
 ### 8. V2 Strategy Selector Probability Distribution
 ![V2 Strategy Selector](docs/screenshots/08_v2_strategy_selector.png)
 
 ### 9. Five-Way Baseline Comparison Table
-![Five-Way Comparison](docs/screenshots/09_five_way_comparison.png)
+![Five-Way Baseline Comparison](docs/screenshots/09_five_way_comparison.png)
 
 ### 10. Research Dashboard & Plot Gallery
-![Research Dashboard](docs/screenshots/10_research_dashboard.png)
+![Research Dashboard Plot Gallery](docs/screenshots/10_research_dashboard.png)
 
 ---
 
 ## 📁 Repository Structure
 
-```
+```text
 .
 ├── config.py                                 # Hyperparameters, paths, and confidence weights
 ├── app.py                                    # Streamlit web application & research dashboard
@@ -221,7 +230,7 @@ Evaluated on 20 internal benchmark queries across 8 query categories ($K = 3$):
 ├── scripts/
 │   ├── run_full_experiments.py               # Master experiment runner
 │   ├── verify_pipeline.py                    # 8-category end-to-end pipeline test script
-│   └── capture_app_screenshots.py            # Screenshot capture utility
+│   └── capture_full_rendered_screenshots.py  # Screenshot capture utility
 └── tests/                                    # Automated Pytest suite (13 test cases)
 ```
 
