@@ -1,0 +1,101 @@
+query_id,category,system,strategy,precision_at_k,recall_at_k,mrr,ndcg_at_k,context_relevance,strategy_accuracy,confidence_score,latency_ms
+Q01,keyword-heavy,BM25-Only,Fixed BM25,0.6667,1.0,1.0,1.0,0.8333,1.0,0.5,0.0
+Q01,keyword-heavy,Semantic-Only,Fixed Semantic,0.6667,1.0,1.0,1.0,0.8333,0.0,0.55,6.88
+Q01,keyword-heavy,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,0.8333,0.0,0.65,6.94
+Q01,keyword-heavy,Proposed V1 (Heuristic),BM25 Retrieval,0.6667,1.0,1.0,1.0,0.8333,1.0,0.85,6.94
+Q01,keyword-heavy,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.6667,1.0,1.0,1.0,0.8333,1.0,0.85,6.94
+Q02,keyword-heavy,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,0.5,1.0,0.5,0.0
+Q02,keyword-heavy,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,0.5,0.0,0.55,6.86
+Q02,keyword-heavy,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,0.5,0.0,0.65,6.92
+Q02,keyword-heavy,Proposed V1 (Heuristic),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.5,1.0,0.86,13.54
+Q02,keyword-heavy,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.5,1.0,0.86,7.27
+Q03,keyword-heavy,BM25-Only,Fixed BM25,0.6667,1.0,1.0,1.0,0.25,1.0,0.5,0.0
+Q03,keyword-heavy,Semantic-Only,Fixed Semantic,0.6667,1.0,1.0,1.0,0.25,0.0,0.55,6.89
+Q03,keyword-heavy,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,0.25,0.0,0.65,7.11
+Q03,keyword-heavy,Proposed V1 (Heuristic),Hybrid Retrieval,0.6667,1.0,1.0,1.0,0.25,0.0,0.65,7.11
+Q03,keyword-heavy,Proposed V2 (Learned Adaptive),Hybrid Retrieval,0.6667,1.0,1.0,1.0,0.25,0.0,0.65,7.11
+Q04,semantic,BM25-Only,Fixed BM25,0.6667,1.0,1.0,0.9197,0.25,0.0,0.5,0.0
+Q04,semantic,Semantic-Only,Fixed Semantic,0.6667,1.0,1.0,0.9197,0.25,1.0,0.55,6.92
+Q04,semantic,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,0.25,0.0,0.65,11.16
+Q04,semantic,Proposed V1 (Heuristic),Hybrid Retrieval,0.6667,1.0,1.0,1.0,0.25,0.0,0.6,11.16
+Q04,semantic,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.6667,1.0,1.0,1.0,0.25,0.0,0.6,13.92
+Q05,semantic,BM25-Only,Fixed BM25,0.6667,1.0,1.0,0.9197,0.75,0.0,0.5,0.0
+Q05,semantic,Semantic-Only,Fixed Semantic,0.3333,0.5,1.0,0.6131,0.75,1.0,0.55,7.0
+Q05,semantic,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,0.9197,0.75,0.0,0.65,7.08
+Q05,semantic,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,0.5,1.0,0.6131,0.75,0.0,0.66,13.66
+Q05,semantic,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,0.5,1.0,0.6131,0.75,0.0,0.66,8.7
+Q06,semantic,BM25-Only,Fixed BM25,0.6667,1.0,1.0,0.9197,1.0,0.0,0.5,0.0
+Q06,semantic,Semantic-Only,Fixed Semantic,0.6667,1.0,1.0,1.0,1.0,1.0,0.55,5.06
+Q06,semantic,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,1.0,0.0,0.65,7.05
+Q06,semantic,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,0.5,1.0,0.6131,0.75,0.0,0.66,7.05
+Q06,semantic,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,0.5,1.0,0.6131,0.75,0.0,0.66,13.99
+Q07,factual,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,0.3333,0.0,0.5,0.0
+Q07,factual,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,0.3333,0.0,0.55,7.16
+Q07,factual,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,0.3333,1.0,0.65,6.84
+Q07,factual,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,1.0,1.0,1.0,0.3333,1.0,0.74,6.84
+Q07,factual,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.3333,0.0,0.74,13.81
+Q08,factual,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,1.0,0.0,0.5,0.0
+Q08,factual,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,1.0,0.0,0.55,6.2
+Q08,factual,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,1.0,1.0,0.65,6.35
+Q08,factual,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,1.0,1.0,1.0,1.0,1.0,0.75,6.35
+Q08,factual,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,1.0,0.0,0.75,14.15
+Q09,factual,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,0.3333,0.0,0.5,0.0
+Q09,factual,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,0.3333,0.0,0.55,9.78
+Q09,factual,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,0.3333,1.0,0.65,4.78
+Q09,factual,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,1.0,1.0,1.0,0.3333,1.0,0.64,4.78
+Q09,factual,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.3333,0.0,0.64,11.17
+Q10,numerical,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,0.75,0.0,0.5,0.0
+Q10,numerical,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,0.75,0.0,0.55,14.54
+Q10,numerical,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,0.75,1.0,0.65,11.06
+Q10,numerical,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,1.0,1.0,1.0,0.75,1.0,0.67,11.06
+Q10,numerical,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.75,0.0,0.67,16.49
+Q11,numerical,BM25-Only,Fixed BM25,0.6667,1.0,1.0,0.9197,0.3333,0.0,0.5,2.51
+Q11,numerical,Semantic-Only,Fixed Semantic,0.3333,0.5,1.0,0.6131,0.0,0.0,0.55,12.27
+Q11,numerical,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,0.3333,1.0,0.65,8.12
+Q11,numerical,Proposed V1 (Heuristic),Hybrid Retrieval,0.6667,1.0,1.0,1.0,0.3333,1.0,0.58,8.12
+Q11,numerical,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.6667,1.0,1.0,1.0,0.3333,0.0,0.58,13.87
+Q12,numerical,BM25-Only,Fixed BM25,0.6667,1.0,1.0,1.0,0.3333,0.0,0.5,0.0
+Q12,numerical,Semantic-Only,Fixed Semantic,0.6667,1.0,1.0,0.9197,0.3333,0.0,0.55,8.59
+Q12,numerical,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,0.3333,1.0,0.65,7.43
+Q12,numerical,Proposed V1 (Heuristic),Hybrid Retrieval,0.6667,1.0,1.0,1.0,0.3333,1.0,0.62,7.43
+Q12,numerical,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.6667,1.0,1.0,1.0,0.3333,0.0,0.62,10.08
+Q13,entity-focused,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,0.25,0.0,0.5,0.0
+Q13,entity-focused,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,0.25,0.0,0.55,6.72
+Q13,entity-focused,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,0.25,1.0,0.65,7.96
+Q13,entity-focused,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,1.0,1.0,1.0,0.25,1.0,0.63,7.96
+Q13,entity-focused,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.25,0.0,0.63,11.13
+Q14,entity-focused,BM25-Only,Fixed BM25,0.0,0.0,0.0,0.0,0.6667,0.0,0.5,1.02
+Q14,entity-focused,Semantic-Only,Fixed Semantic,0.0,0.0,0.0,0.0,0.3333,0.0,0.55,19.03
+Q14,entity-focused,Fixed Hybrid,Fixed Score Fusion,0.0,0.0,0.0,0.0,0.6667,1.0,0.65,12.79
+Q14,entity-focused,Proposed V1 (Heuristic),Hybrid Retrieval,0.0,0.0,0.0,0.0,0.6667,1.0,0.56,13.83
+Q14,entity-focused,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.0,0.0,0.0,0.0,0.6667,0.0,0.56,19.32
+Q15,comparison,BM25-Only,Fixed BM25,0.6667,1.0,1.0,0.9197,0.75,0.0,0.5,0.5
+Q15,comparison,Semantic-Only,Fixed Semantic,0.6667,1.0,1.0,0.9197,0.75,0.0,0.55,14.43
+Q15,comparison,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,0.9197,0.75,1.0,0.65,7.58
+Q15,comparison,Proposed V1 (Heuristic),Hybrid Retrieval,0.6667,1.0,1.0,0.9197,0.75,1.0,0.62,7.58
+Q15,comparison,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.6667,1.0,1.0,0.9197,0.75,0.0,0.62,12.84
+Q16,comparison,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,1.0,0.0,0.5,0.0
+Q16,comparison,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,1.0,0.0,0.55,14.98
+Q16,comparison,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,1.0,1.0,0.65,23.25
+Q16,comparison,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,1.0,1.0,1.0,0.3333,1.0,0.61,23.25
+Q16,comparison,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.3333,0.0,0.61,26.54
+Q17,multi-part,BM25-Only,Fixed BM25,1.0,1.0,1.0,1.0,0.5,0.0,0.5,0.0
+Q17,multi-part,Semantic-Only,Fixed Semantic,0.6667,0.6667,1.0,0.7039,0.5,0.0,0.55,6.96
+Q17,multi-part,Fixed Hybrid,Fixed Score Fusion,1.0,1.0,1.0,1.0,0.5,1.0,0.65,13.86
+Q17,multi-part,Proposed V1 (Heuristic),Hybrid Retrieval,1.0,1.0,1.0,1.0,0.5,1.0,0.62,13.86
+Q17,multi-part,Proposed V2 (Learned Adaptive),BM25 Retrieval,1.0,1.0,1.0,1.0,0.5,0.0,0.62,13.86
+Q18,multi-part,BM25-Only,Fixed BM25,0.6667,1.0,1.0,1.0,0.25,0.0,0.5,0.0
+Q18,multi-part,Semantic-Only,Fixed Semantic,0.6667,1.0,1.0,1.0,0.25,0.0,0.55,14.04
+Q18,multi-part,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,0.25,1.0,0.65,6.81
+Q18,multi-part,Proposed V1 (Heuristic),Hybrid Retrieval,0.6667,1.0,1.0,1.0,0.25,1.0,0.64,6.81
+Q18,multi-part,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.6667,1.0,1.0,1.0,0.25,0.0,0.64,13.71
+Q19,disagreement-prone,BM25-Only,Fixed BM25,0.6667,1.0,1.0,1.0,0.0,0.0,0.5,0.0
+Q19,disagreement-prone,Semantic-Only,Fixed Semantic,0.3333,0.5,1.0,0.6131,0.0,0.0,0.55,6.34
+Q19,disagreement-prone,Fixed Hybrid,Fixed Score Fusion,0.6667,1.0,1.0,1.0,0.0,1.0,0.65,7.03
+Q19,disagreement-prone,Proposed V1 (Heuristic),Hybrid Retrieval,0.6667,1.0,1.0,1.0,0.0,1.0,0.66,7.03
+Q19,disagreement-prone,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.6667,1.0,1.0,1.0,0.0,0.0,0.66,13.87
+Q20,disagreement-prone,BM25-Only,Fixed BM25,0.3333,1.0,1.0,1.0,0.6667,0.0,0.5,0.0
+Q20,disagreement-prone,Semantic-Only,Fixed Semantic,0.3333,1.0,1.0,1.0,0.6667,0.0,0.55,8.69
+Q20,disagreement-prone,Fixed Hybrid,Fixed Score Fusion,0.3333,1.0,1.0,1.0,0.6667,1.0,0.65,5.2
+Q20,disagreement-prone,Proposed V1 (Heuristic),Hybrid Retrieval,0.3333,1.0,1.0,1.0,0.6667,1.0,0.71,10.32
+Q20,disagreement-prone,Proposed V2 (Learned Adaptive),BM25 Retrieval,0.3333,1.0,1.0,1.0,0.6667,0.0,0.71,7.0

@@ -1,0 +1,50 @@
+[
+  {
+    "system_a": "Proposed V2 Adaptive",
+    "system_b": "Fixed Hybrid Baseline",
+    "metric": "MRR",
+    "sample_size": 20,
+    "mean_diff": 0.0,
+    "is_statistically_significant": false,
+    "p_value": 1.0,
+    "test_statistic": 0.0,
+    "test_name": "Wilcoxon Signed-Rank Test",
+    "interpretation": "No difference observed between Proposed V2 Adaptive and Fixed Hybrid Baseline on MRR (diff = 0)."
+  },
+  {
+    "system_a": "Proposed V2 Adaptive",
+    "system_b": "Proposed V1 Heuristic",
+    "metric": "MRR",
+    "sample_size": 20,
+    "mean_diff": 0.0,
+    "is_statistically_significant": false,
+    "p_value": 1.0,
+    "test_statistic": 0.0,
+    "test_name": "Wilcoxon Signed-Rank Test",
+    "interpretation": "No difference observed between Proposed V2 Adaptive and Proposed V1 Heuristic on MRR (diff = 0)."
+  },
+  {
+    "system_a": "Proposed V2 Adaptive",
+    "system_b": "BM25-Only Baseline",
+    "metric": "MRR",
+    "sample_size": 20,
+    "mean_diff": 0.0,
+    "is_statistically_significant": false,
+    "p_value": 1.0,
+    "test_statistic": 0.0,
+    "test_name": "Wilcoxon Signed-Rank Test",
+    "interpretation": "No difference observed between Proposed V2 Adaptive and BM25-Only Baseline on MRR (diff = 0)."
+  },
+  {
+    "system_a": "Proposed V2 Adaptive",
+    "system_b": "Semantic-Only Baseline",
+    "metric": "MRR",
+    "sample_size": 20,
+    "mean_diff": 0.0,
+    "is_statistically_significant": false,
+    "p_value": 1.0,
+    "test_statistic": 0.0,
+    "test_name": "Wilcoxon Signed-Rank Test",
+    "interpretation": "No difference observed between Proposed V2 Adaptive and Semantic-Only Baseline on MRR (diff = 0)."
+  }
+]

@@ -1,0 +1,3 @@
+@echo off
+echo Starting Adaptive Multi-Agent RAG Streamlit Application...
+streamlit run app.py

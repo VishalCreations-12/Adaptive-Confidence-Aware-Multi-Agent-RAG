@@ -1,0 +1,10 @@
+# NovaTech Research Knowledge Base - Recommended Test Questions
+
+1. [Factual] What is the warranty period and energy efficiency of the NovaSolar-X solar panel?
+2. [Keyword-Heavy] NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State
+3. [Semantic] How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?
+4. [Numerical] What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?
+5. [Entity] Who are the CEO and CTO of NovaTech, and where is the enterprise headquartered?
+6. [Comparison] Compare the operational characteristics of the NovaSolar-X solar panel with the AeroGuide drone swarm system.
+7. [Multi-Section Integration] How do NovaTech's sustainability goals align with its financial investments and upcoming 2026 European expansion milestones?
+8. [Disagreement-Prone] What battery flight duration, top speed, and neural processor specs are defined for NovaTech's autonomous products?

@@ -1,0 +1,581 @@
+[
+  {
+    "timestamp": "2026-08-27T11:27:52.524409",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 36.47
+  },
+  {
+    "timestamp": "2026-08-27T11:27:52.539562",
+    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "characteristics": [
+      "keyword-heavy",
+      "numerical",
+      "entity-focused"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "85%",
+    "confidence_score": 0.85,
+    "latency_ms": 15.15
+  },
+  {
+    "timestamp": "2026-08-27T11:27:52.557197",
+    "query": "How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?",
+    "characteristics": [
+      "semantic",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "60%",
+    "confidence_score": 0.6,
+    "latency_ms": 17.63
+  },
+  {
+    "timestamp": "2026-08-27T11:27:52.573733",
+    "query": "What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "numerical",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "67%",
+    "confidence_score": 0.67,
+    "latency_ms": 16.54
+  },
+  {
+    "timestamp": "2026-08-27T11:27:52.587293",
+    "query": "Who are the CEO and CTO of NovaTech, and where is the enterprise headquartered?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "69%",
+    "confidence_score": 0.69,
+    "latency_ms": 13.56
+  },
+  {
+    "timestamp": "2026-08-27T11:27:52.603309",
+    "query": "Compare the operational characteristics of the NovaSolar-X solar panel with the AeroGuide drone swarm system.",
+    "characteristics": [
+      "semantic",
+      "entity-focused",
+      "comparison"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "62%",
+    "confidence_score": 0.62,
+    "latency_ms": 16.02
+  },
+  {
+    "timestamp": "2026-08-27T11:27:52.628820",
+    "query": "How do NovaTech's sustainability goals align with its financial investments and upcoming 2026 European expansion milestones?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "numerical",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "62%",
+    "confidence_score": 0.62,
+    "latency_ms": 25.51
+  },
+  {
+    "timestamp": "2026-08-27T11:27:52.634827",
+    "query": "What battery flight duration, top speed, and neural processor specs are defined for NovaTech's autonomous products?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "66%",
+    "confidence_score": 0.66,
+    "latency_ms": 6.01
+  },
+  {
+    "timestamp": "2026-08-27T11:38:24.816170",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 24.46
+  },
+  {
+    "timestamp": "2026-08-27T11:49:15.897483",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 39.77
+  },
+  {
+    "timestamp": "2026-08-27T12:00:43.983698",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 28.91
+  },
+  {
+    "timestamp": "2026-08-27T12:00:45.002366",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 30.62
+  },
+  {
+    "timestamp": "2026-08-27T12:00:46.386417",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 29.36
+  },
+  {
+    "timestamp": "2026-08-27T12:00:48.218921",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 26.35
+  },
+  {
+    "timestamp": "2026-08-27T12:00:58.187098",
+    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "characteristics": [
+      "keyword-heavy",
+      "numerical",
+      "entity-focused"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "85%",
+    "confidence_score": 0.85,
+    "latency_ms": 24.53
+  },
+  {
+    "timestamp": "2026-08-27T12:01:01.515877",
+    "query": "Who are the CEO and CTO of NovaTech, and where is the enterprise headquartered?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "69%",
+    "confidence_score": 0.69,
+    "latency_ms": 25.33
+  },
+  {
+    "timestamp": "2026-08-27T12:12:40.515399",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "67%",
+    "confidence_score": 0.67,
+    "latency_ms": 32.48
+  },
+  {
+    "timestamp": "2026-08-27T12:12:59.648831",
+    "query": "vishal",
+    "characteristics": [
+      "keyword-heavy"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "77%",
+    "confidence_score": 0.77,
+    "latency_ms": 75.06
+  },
+  {
+    "timestamp": "2026-08-27T12:14:26.168822",
+    "query": "cgpa of vishal",
+    "characteristics": [
+      "keyword-heavy"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "82%",
+    "confidence_score": 0.82,
+    "latency_ms": 29.42
+  },
+  {
+    "timestamp": "2026-08-27T12:15:25.512068",
+    "query": "cgpa of vishal",
+    "characteristics": [
+      "keyword-heavy"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "82%",
+    "confidence_score": 0.82,
+    "latency_ms": 19.34
+  },
+  {
+    "timestamp": "2026-08-27T12:18:48.325665",
+    "query": "cgpa of vishal",
+    "characteristics": [
+      "keyword-heavy"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "82%",
+    "confidence_score": 0.82,
+    "latency_ms": 17.66
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.344973",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 27.4
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.379263",
+    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "characteristics": [
+      "keyword-heavy",
+      "numerical",
+      "entity-focused"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "85%",
+    "confidence_score": 0.85,
+    "latency_ms": 31.84
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.406444",
+    "query": "How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?",
+    "characteristics": [
+      "semantic",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "60%",
+    "confidence_score": 0.6,
+    "latency_ms": 27.18
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.434745",
+    "query": "What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "numerical",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "67%",
+    "confidence_score": 0.67,
+    "latency_ms": 28.3
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.459022",
+    "query": "Who are the CEO and CTO of NovaTech, and where is the enterprise headquartered?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "69%",
+    "confidence_score": 0.69,
+    "latency_ms": 24.28
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.483192",
+    "query": "Compare the operational characteristics of the NovaSolar-X solar panel with the AeroGuide drone swarm system.",
+    "characteristics": [
+      "semantic",
+      "entity-focused",
+      "comparison"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "62%",
+    "confidence_score": 0.62,
+    "latency_ms": 21.26
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.517495",
+    "query": "How do NovaTech's sustainability goals align with its financial investments and upcoming 2026 European expansion milestones?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "numerical",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "62%",
+    "confidence_score": 0.62,
+    "latency_ms": 30.9
+  },
+  {
+    "timestamp": "2026-08-31T18:30:32.562664",
+    "query": "What battery flight duration, top speed, and neural processor specs are defined for NovaTech's autonomous products?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "66%",
+    "confidence_score": 0.66,
+    "latency_ms": 44.62
+  },
+  {
+    "timestamp": "2026-09-01T19:37:32.764009",
+    "query": "What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "numerical",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "67%",
+    "confidence_score": 0.67,
+    "latency_ms": 72.11
+  },
+  {
+    "timestamp": "2026-09-01T19:37:45.004642",
+    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "characteristics": [
+      "keyword-heavy",
+      "numerical",
+      "entity-focused"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "85%",
+    "confidence_score": 0.85,
+    "latency_ms": 28.72
+  },
+  {
+    "timestamp": "2026-09-01T19:39:05.430132",
+    "query": "Who are the CEO and CTO of NovaTech, and where is the enterprise headquartered?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "69%",
+    "confidence_score": 0.69,
+    "latency_ms": 35.11
+  },
+  {
+    "timestamp": "2026-09-17T12:37:34.875262",
+    "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "74%",
+    "confidence_score": 0.74,
+    "latency_ms": 20.81
+  },
+  {
+    "timestamp": "2026-09-17T12:37:34.902902",
+    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "characteristics": [
+      "keyword-heavy",
+      "numerical",
+      "entity-focused"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "85%",
+    "confidence_score": 0.85,
+    "latency_ms": 27.64
+  },
+  {
+    "timestamp": "2026-09-17T12:37:34.917634",
+    "query": "How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?",
+    "characteristics": [
+      "semantic",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "60%",
+    "confidence_score": 0.6,
+    "latency_ms": 14.73
+  },
+  {
+    "timestamp": "2026-09-17T12:37:34.937775",
+    "query": "What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "numerical",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "67%",
+    "confidence_score": 0.67,
+    "latency_ms": 20.14
+  },
+  {
+    "timestamp": "2026-09-17T12:37:34.951660",
+    "query": "Who are the CEO and CTO of NovaTech, and where is the enterprise headquartered?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "69%",
+    "confidence_score": 0.69,
+    "latency_ms": 12.97
+  },
+  {
+    "timestamp": "2026-09-17T12:37:34.972305",
+    "query": "Compare the operational characteristics of the NovaSolar-X solar panel with the AeroGuide drone swarm system.",
+    "characteristics": [
+      "semantic",
+      "entity-focused",
+      "comparison"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "62%",
+    "confidence_score": 0.62,
+    "latency_ms": 20.64
+  },
+  {
+    "timestamp": "2026-09-17T12:37:34.987120",
+    "query": "How do NovaTech's sustainability goals align with its financial investments and upcoming 2026 European expansion milestones?",
+    "characteristics": [
+      "keyword-heavy",
+      "semantic",
+      "numerical",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "62%",
+    "confidence_score": 0.62,
+    "latency_ms": 14.81
+  },
+  {
+    "timestamp": "2026-09-17T12:37:35.007380",
+    "query": "What battery flight duration, top speed, and neural processor specs are defined for NovaTech's autonomous products?",
+    "characteristics": [
+      "semantic",
+      "factual",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "66%",
+    "confidence_score": 0.66,
+    "latency_ms": 20.26
+  },
+  {
+    "timestamp": "2026-09-17T12:47:55.762913",
+    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "characteristics": [
+      "keyword-heavy",
+      "numerical",
+      "entity-focused"
+    ],
+    "selected_strategy": "BM25 Retrieval",
+    "evidence_confidence": "85%",
+    "confidence_score": 0.85,
+    "latency_ms": 44.76
+  },
+  {
+    "timestamp": "2026-09-17T12:48:22.037658",
+    "query": "How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?",
+    "characteristics": [
+      "semantic",
+      "entity-focused",
+      "multi-part / multi-hop"
+    ],
+    "selected_strategy": "Hybrid Retrieval",
+    "evidence_confidence": "60%",
+    "confidence_score": 0.6,
+    "latency_ms": 28.22
+  }
+]

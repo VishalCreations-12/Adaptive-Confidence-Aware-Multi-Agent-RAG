@@ -1,0 +1,179 @@
+{
+  "benchmark_name": "NovaTech Research Multi-Agent Retrieval Ground Truth Benchmark",
+  "version": "2.0",
+  "total_queries": 20,
+  "ground_truth": {
+    "Q01": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": ["novasync", "v3.2", "aes-256", "10 gbps", "sub-5ms", "proof-of-state"]
+    },
+    "Q02": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_3"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": ["novasolar-x", "24.5%", "25-year", "silicon-perovskite"]
+    },
+    "Q03": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": ["aeroguide", "85 km/h", "novaengine v2", "optical-thermal"]
+    },
+    "Q04": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": ["green manufacturing", "recyclable", "emissions", "sustainability"]
+    },
+    "Q05": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": ["zero-trust", "distributed", "node", "encryption"]
+    },
+    "Q06": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": ["drone swarm", "autonomous", "payload", "mesh"]
+    },
+    "Q07": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_3"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["25-year", "24.5%", "novasolar-x"]
+    },
+    "Q08": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["boston", "headquartered", "novatech"]
+    },
+    "Q09": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["45-minute", "battery", "aeroguide"]
+    },
+    "Q10": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["$42.5 million", "34%", "r&d", "q3 2025"]
+    },
+    "Q11": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["10 gbps", "10,000", "nodes"]
+    },
+    "Q12": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["$12 million", "2026", "munich"]
+    },
+    "Q13": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["aris thorne", "elena rostova", "ceo", "cto"]
+    },
+    "Q14": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["novaengine v2", "neural", "edge"]
+    },
+    "Q15": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["novasolar-x", "aeroguide", "efficiency", "battery"]
+    },
+    "Q16": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["10 gbps", "novasync", "throughput"]
+    },
+    "Q17": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["sustainability", "expansion", "2026", "munich"]
+    },
+    "Q18": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["sensor", "optical-thermal", "novaengine v2", "85 km/h"]
+    },
+    "Q19": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["45-minute", "85 km/h", "novaengine v2"]
+    },
+    "Q20": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": ["aes-256", "sub-5ms", "proof-of-state"]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Caches and virtual environments
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Model weights & HuggingFace caches (if created locally)
+.cache/
+huggingface/
+
+# IDE & OS generated files
+.vscode/
+.idea/
+.project
+.settings/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Task logs & temporary execution files
+*.log
+scratch/

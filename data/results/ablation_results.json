@@ -1,0 +1,59 @@
+{
+  "variants_evaluated": 6,
+  "summary_table": [
+    {
+      "variant": "Full V2 System",
+      "mean_precision_at_k": 0.4833,
+      "mean_recall_at_k": 0.9,
+      "mean_mrr": 0.95,
+      "mean_ndcg_at_k": 0.9073,
+      "mean_confidence": 0.6665,
+      "total_evaluations": 20
+    },
+    {
+      "variant": "V2 w/o Query Traits",
+      "mean_precision_at_k": 0.4358,
+      "mean_recall_at_k": 0.8525,
+      "mean_mrr": 0.893,
+      "mean_ndcg_at_k": 0.8598,
+      "mean_confidence": 0.5865,
+      "total_evaluations": 20
+    },
+    {
+      "variant": "V2 w/o Evidence Judge Signals",
+      "mean_precision_at_k": 0.3693,
+      "mean_recall_at_k": 0.805,
+      "mean_mrr": 0.8075,
+      "mean_ndcg_at_k": 0.7933,
+      "mean_confidence": 0.5165,
+      "total_evaluations": 20
+    },
+    {
+      "variant": "V2 w/o Confidence Signal",
+      "mean_precision_at_k": 0.4548,
+      "mean_recall_at_k": 0.881,
+      "mean_mrr": 0.9215,
+      "mean_ndcg_at_k": 0.8788,
+      "mean_confidence": 0.5,
+      "total_evaluations": 20
+    },
+    {
+      "variant": "V2 w/o Historical Memory (No Learning)",
+      "mean_precision_at_k": 0.5167,
+      "mean_recall_at_k": 0.95,
+      "mean_mrr": 0.95,
+      "mean_ndcg_at_k": 0.942,
+      "mean_confidence": 0.65,
+      "total_evaluations": 20
+    },
+    {
+      "variant": "Fixed Hybrid Baseline",
+      "mean_precision_at_k": 0.5167,
+      "mean_recall_at_k": 0.95,
+      "mean_mrr": 0.95,
+      "mean_ndcg_at_k": 0.942,
+      "mean_confidence": 0.65,
+      "total_evaluations": 20
+    }
+  ]
+}

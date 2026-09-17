@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "Q01",
+    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "category": "keyword-heavy",
+    "description": "Exact technical specifications and protocol terms for NovaSync v3.2"
+  },
+  {
+    "query_id": "Q02",
+    "query": "NovaSolar-X 24.5% efficiency 25-year warranty silicon-perovskite",
+    "category": "keyword-heavy",
+    "description": "Exact model terms and ratings for solar panel"
+  },
+  {
+    "query_id": "Q03",
+    "query": "Project AeroGuide 85 km/h NovaEngine v2 dual optical-thermal",
+    "category": "keyword-heavy",
+    "description": "Exact drone swarm hardware and speed model numbers"
+  },
+  {
+    "query_id": "Q04",
+    "query": "How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?",
+    "category": "semantic",
+    "description": "Conceptual explanation of environmental and sustainability practices"
+  },
+  {
+    "query_id": "Q05",
+    "query": "Explain the architectural mechanism used by NovaSync to achieve zero-trust security across distributed nodes.",
+    "category": "semantic",
+    "description": "Conceptual breakdown of distributed security protocol"
+  },
+  {
+    "query_id": "Q06",
+    "query": "Describe the operational design and mission capabilities of the autonomous drone swarm system.",
+    "category": "semantic",
+    "description": "Conceptual summary of drone swarm autonomous capabilities"
+  },
+  {
+    "query_id": "Q07",
+    "query": "What is the warranty period and photovoltaic energy efficiency rating of the NovaSolar-X solar panel?",
+    "category": "factual",
+    "description": "Factual lookup for solar product warranty and efficiency"
+  },
+  {
+    "query_id": "Q08",
+    "query": "Where is NovaTech enterprise headquartered and who founded the research institute?",
+    "category": "factual",
+    "description": "Factual corporate background lookup"
+  },
+  {
+    "query_id": "Q09",
+    "query": "What battery flight duration is specified for the Project AeroGuide drone system?",
+    "category": "factual",
+    "description": "Factual specification lookup for drone battery life"
+  },
+  {
+    "query_id": "Q10",
+    "query": "What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?",
+    "category": "numerical",
+    "description": "Numerical financial figures lookup"
+  },
+  {
+    "query_id": "Q11",
+    "query": "What is the maximum throughput in Gbps and network node scaling limit supported by NovaSync?",
+    "category": "numerical",
+    "description": "Numerical metrics for network speed and node count"
+  },
+  {
+    "query_id": "Q12",
+    "query": "What is the European expansion capital fund amount and the target year for the Munich innovation hub?",
+    "category": "numerical",
+    "description": "Numerical figures for expansion fund and target milestone year"
+  },
+  {
+    "query_id": "Q13",
+    "query": "Who are the CEO and CTO of NovaTech enterprise?",
+    "category": "entity-focused",
+    "description": "Entity extraction for executive leadership names"
+  },
+  {
+    "query_id": "Q14",
+    "query": "Which research division developed the NovaEngine v2 neural edge processor and where is it tested?",
+    "category": "entity-focused",
+    "description": "Entity extraction for product division and processor name"
+  },
+  {
+    "query_id": "Q15",
+    "query": "Compare the operational characteristics of the NovaSolar-X solar panel with the AeroGuide drone swarm system.",
+    "category": "comparison",
+    "description": "Cross-domain product operational comparison"
+  },
+  {
+    "query_id": "Q16",
+    "query": "Compare the bandwidth throughput of NovaSync v3.2 with legacy enterprise IoT protocols.",
+    "category": "comparison",
+    "description": "Comparative analysis of network protocol throughput"
+  },
+  {
+    "query_id": "Q17",
+    "query": "How do NovaTech's sustainability goals align with its financial investments and upcoming 2026 European expansion milestones?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis linking finance, sustainability, and expansion"
+  },
+  {
+    "query_id": "Q18",
+    "query": "What sensor payloads and neural processors power Project AeroGuide, and what is its maximum flight range?",
+    "category": "multi-part",
+    "description": "Multi-part query combining sensors, processor, and flight specs"
+  },
+  {
+    "query_id": "Q19",
+    "query": "What battery flight duration, top speed, and neural processor specs are defined for NovaTech's autonomous products?",
+    "category": "disagreement-prone",
+    "description": "Complex multi-attribute query prone to inter-agent retrieval variation"
+  },
+  {
+    "query_id": "Q20",
+    "query": "Which encryption standard, latency threshold, and consensus algorithm does NovaSync implement?",
+    "category": "disagreement-prone",
+    "description": "Multi-attribute protocol query requiring precise matching across specs"
+  }
+]

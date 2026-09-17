@@ -1,0 +1,57 @@
+[
+  {
+    "system": "BM25-Only",
+    "precision_at_k": 0.5167,
+    "recall_at_k": 0.95,
+    "mrr": 0.95,
+    "ndcg_at_k": 0.9299,
+    "context_relevance": 0.5375,
+    "strategy_accuracy": 0.15,
+    "confidence_score": 0.5,
+    "latency_ms": 0.2015
+  },
+  {
+    "system": "Fixed Hybrid",
+    "precision_at_k": 0.5167,
+    "recall_at_k": 0.95,
+    "mrr": 0.95,
+    "ndcg_at_k": 0.942,
+    "context_relevance": 0.5375,
+    "strategy_accuracy": 0.7,
+    "confidence_score": 0.65,
+    "latency_ms": 8.766
+  },
+  {
+    "system": "Proposed V1 (Heuristic)",
+    "precision_at_k": 0.4833,
+    "recall_at_k": 0.9,
+    "mrr": 0.95,
+    "ndcg_at_k": 0.9073,
+    "context_relevance": 0.4917,
+    "strategy_accuracy": 0.8,
+    "confidence_score": 0.6665,
+    "latency_ms": 9.734
+  },
+  {
+    "system": "Proposed V2 (Learned Adaptive)",
+    "precision_at_k": 0.4833,
+    "recall_at_k": 0.9,
+    "mrr": 0.95,
+    "ndcg_at_k": 0.9073,
+    "context_relevance": 0.4917,
+    "strategy_accuracy": 0.1,
+    "confidence_score": 0.6665,
+    "latency_ms": 12.7885
+  },
+  {
+    "system": "Semantic-Only",
+    "precision_at_k": 0.45,
+    "recall_at_k": 0.8583,
+    "mrr": 0.95,
+    "ndcg_at_k": 0.8651,
+    "context_relevance": 0.5042,
+    "strategy_accuracy": 0.15,
+    "confidence_score": 0.55,
+    "latency_ms": 9.467
+  }
+]
