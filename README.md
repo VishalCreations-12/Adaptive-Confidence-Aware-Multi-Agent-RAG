@@ -2,7 +2,12 @@
 
 **GitHub Repository:** [https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git](https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git)  
 
+## 🌐 Live Demo
+
+🚀 **Live Application:** [Launch the Adaptive Confidence-Aware Multi-Agent RAG System](https://adaptive-confidence-aware-multi-agent-rag-4npjj8njappahqb6aurv.streamlit.app)
+
 ---
+
 
 ## 🌟 Overview
 
