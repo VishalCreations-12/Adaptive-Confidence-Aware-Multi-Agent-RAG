@@ -239,50 +239,6 @@
     "latency_ms": 32.48
   },
   {
-    "timestamp": "2026-08-27T12:12:59.648831",
-    "query": "vishal",
-    "characteristics": [
-      "keyword-heavy"
-    ],
-    "selected_strategy": "BM25 Retrieval",
-    "evidence_confidence": "77%",
-    "confidence_score": 0.77,
-    "latency_ms": 75.06
-  },
-  {
-    "timestamp": "2026-08-27T12:14:26.168822",
-    "query": "cgpa of vishal",
-    "characteristics": [
-      "keyword-heavy"
-    ],
-    "selected_strategy": "BM25 Retrieval",
-    "evidence_confidence": "82%",
-    "confidence_score": 0.82,
-    "latency_ms": 29.42
-  },
-  {
-    "timestamp": "2026-08-27T12:15:25.512068",
-    "query": "cgpa of vishal",
-    "characteristics": [
-      "keyword-heavy"
-    ],
-    "selected_strategy": "BM25 Retrieval",
-    "evidence_confidence": "82%",
-    "confidence_score": 0.82,
-    "latency_ms": 19.34
-  },
-  {
-    "timestamp": "2026-08-27T12:18:48.325665",
-    "query": "cgpa of vishal",
-    "characteristics": [
-      "keyword-heavy"
-    ],
-    "selected_strategy": "BM25 Retrieval",
-    "evidence_confidence": "82%",
-    "confidence_score": 0.82,
-    "latency_ms": 17.66
-  },
-  {
     "timestamp": "2026-08-31T18:30:32.344973",
     "query": "What is the warranty period and energy efficiency of the NovaSolar-X solar panel?",
     "characteristics": [

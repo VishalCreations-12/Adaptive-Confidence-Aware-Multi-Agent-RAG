@@ -1,8 +1,5 @@
 # Adaptive Confidence-Aware Multi-Agent RAG System (V2)
 
-**Student:** Vishal S (Reg. No: 22MIS1165)  
-**Program:** Integrated M.Tech Software Engineering, VIT Chennai  
-**Guide:** Dr. Malini A  
 **GitHub Repository:** [https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git](https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git)  
 
 ---
@@ -99,17 +96,20 @@ Traditional retrieval literature focuses on individual algorithms (BM25, FAISS, 
 2. **Semantic Vector Retriever (`sentence-transformers/all-MiniLM-L6-v2` + `FAISS`):** Generates 384-dimensional dense vectors with L2-normalized Cosine similarity in a local FAISS index.
 3. **MinMax Hybrid Fusion Retriever:** MinMax normalizes BM25 and Semantic scores to [0.0, 1.0] and merges them:
 
-```text
-MinMax(score) = (score - min_score) / (max_score - min_score)
-Combined_Score = (0.5 * BM25_norm) + (0.5 * Semantic_norm)
-```
+$$
+\mathrm{MinMax}(s_i) = \frac{s_i - s_{\min}}{s_{\max} - s_{\min}}
+$$
+
+$$
+S_{\mathrm{hybrid}} = \alpha S_{\mathrm{BM25,norm}} + \beta S_{\mathrm{semantic,norm}}
+$$
 
 4. **Evidence Judge Engine:** Evaluates inter-agent consensus, calculates keyword coverage, filters redundant 100-character snippet prefixes, and enforces candidate thresholds.
 5. **Evidence Confidence Scorer:** 4-factor scoring algorithm bound between 0.15 and 0.98:
 
-```text
-Confidence = (0.35 * Score_Strength) + (0.25 * Consensus_Ratio) + (0.25 * Keyword_Coverage) + (0.15 * Score_Spread)
-```
+$$
+\mathrm{Confidence} = 0.35 F_{\mathrm{strength}} + 0.25 F_{\mathrm{consensus}} + 0.25 F_{\mathrm{coverage}} + 0.15 F_{\mathrm{spread}}
+$$
 
 6. **Extractive Grounded Answer Generator:** Synthesizes bulleted sentence extractions directly from judged evidence chunks with explicit page and chunk citations.
 
@@ -182,14 +182,14 @@ Evaluated on 20 internal benchmark queries across 8 query categories (Top-K = 3)
 ### 7. Grounded Extractive Answer Generation
 ![Grounded Answer Generation](docs/screenshots/07_grounded_answer.png)
 
-### 8. V2 Strategy Selector Probability Distribution
-![V2 Strategy Selector](docs/screenshots/08_v2_strategy_selector.png)
+### 8. Benchmark Study Summary
+![Benchmark Study Summary](docs/screenshots/08_study_summary.png)
 
-### 9. Five-Way Baseline Comparison Table
-![Five-Way Baseline Comparison](docs/screenshots/09_five_way_comparison.png)
+### 9. Five-Way Research Dashboard
+![Five-Way Research Dashboard](docs/screenshots/09_research_dashboard.png)
 
 ### 10. Research Dashboard & Plot Gallery
-![Research Dashboard Plot Gallery](docs/screenshots/10_research_dashboard.png)
+![Research Dashboard Plot Gallery](docs/screenshots/10_plot_gallery.png)
 
 ---
 
@@ -200,7 +200,6 @@ Evaluated on 20 internal benchmark queries across 8 query categories (Top-K = 3)
 ├── config.py                                 # Hyperparameters, paths, and confidence weights
 ├── app.py                                    # Streamlit web application & research dashboard
 ├── requirements.txt                          # Python dependencies
-├── FACULTY_REVISION_SHEET.md                 # Viva Q&A sheet for faculty evaluation
 ├── PROJECT_RESEARCH_ANALYSIS.md              # System research analysis
 ├── RESEARCH_RESULTS.md                       # Quantitative results documentation
 ├── V2_ADAPTIVE_LEARNING.md                   # V2 ML classifier documentation
@@ -229,8 +228,7 @@ Evaluated on 20 internal benchmark queries across 8 query categories (Top-K = 3)
 ├── sample_data/                              # Synthetic benchmark PDF generator & test questions
 ├── scripts/
 │   ├── run_full_experiments.py               # Master experiment runner
-│   ├── verify_pipeline.py                    # 8-category end-to-end pipeline test script
-│   └── capture_full_rendered_screenshots.py  # Screenshot capture utility
+│   └── verify_pipeline.py                    # 8-category end-to-end pipeline test script
 └── tests/                                    # Automated Pytest suite (13 test cases)
 ```
 
@@ -281,13 +279,3 @@ The application is pre-configured for **Streamlit Community Cloud** or any conta
 - Configuration file: `.streamlit/config.toml`
 - Headless execution: Enabled
 - API Cost: **$0.00 (100% Local Inference)**
-
----
-
-## 🎓 Academic Details
-
-- **Student Name:** Vishal S
-- **Register Number:** 22MIS1165
-- **Degree:** Integrated M.Tech in Software Engineering
-- **Institution:** School of Computer Science and Engineering (SCOPE), VIT Chennai
-- **Project Guide:** Dr. Malini A

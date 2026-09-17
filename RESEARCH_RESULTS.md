@@ -1,8 +1,6 @@
 # RESEARCH EXPERIMENTAL RESULTS & METRICS REPORT
 
 **PROJECT TITLE:** Adaptive Confidence-Aware Multi-Agent Retrieval System (V2)  
-**STUDENT:** Vishal S (Reg. No: 22MIS1165, Integrated M.Tech Software Engineering, VIT Chennai)  
-**GUIDE:** Dr. Malini A  
 
 ---
 
