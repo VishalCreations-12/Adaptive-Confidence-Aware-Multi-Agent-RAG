@@ -3,7 +3,6 @@ import sys
 from pathlib import Path
 import pytest
 
-# Ensure workspace root is in python path
 BASE_DIR = Path(__file__).resolve().parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
@@ -16,6 +15,8 @@ from src.query_analysis.analyzer import QueryAnalyzer
 from src.retrieval.bm25_agent import BM25Retriever
 from src.retrieval.semantic_agent import SemanticRetriever
 from src.retrieval.hybrid_agent import HybridRetriever
+from src.retrieval.rrf_agent import RRFRetriever
+from src.retrieval.tuned_hybrid_agent import TunedHybridRetriever
 from src.judge.evidence_judge import EvidenceJudge
 from src.confidence.confidence_scorer import ConfidenceScorer
 from src.generation.answer_generator import GroundedAnswerGenerator
@@ -26,8 +27,10 @@ def sample_files():
     """Ensure sample PDF and TXT exist for testing."""
     pdf_path = config.SAMPLE_DATA_DIR / "NovaTech_Research_Knowledge_Base.pdf"
     txt_path = config.SAMPLE_DATA_DIR / "test_questions.txt"
-    generate_sample_pdf(pdf_path)
-    generate_sample_questions(txt_path)
+    if not pdf_path.exists():
+        generate_sample_pdf(pdf_path)
+    if not txt_path.exists():
+        generate_sample_questions(txt_path)
     return pdf_path, txt_path
 
 def test_sample_generation(sample_files):
@@ -59,6 +62,11 @@ def test_query_analyzer():
     res_num = QueryAnalyzer.analyze("What is the Q3 2025 revenue figure and 34% R&D budget?")
     assert res_num["is_numerical"] is True
 
+    # Empty query handling
+    res_empty = QueryAnalyzer.analyze("")
+    assert res_empty["word_count"] == 0
+    assert len(res_empty["characteristics"]) > 0
+
 def test_retrievers_and_judge(sample_files):
     pdf_path, _ = sample_files
     doc_data = DocumentParser.parse_document(pdf_path)
@@ -80,6 +88,18 @@ def test_retrievers_and_judge(sample_files):
     hyb_res = hybrid.search("NovaSolar-X panel efficiency", top_k=3)
     assert len(hyb_res) > 0
     assert "combined_score" in hyb_res[0]
+
+    # Test RRF Retriever
+    rrf = RRFRetriever(bm25, semantic, rrf_k=60)
+    rrf_res = rrf.search("NovaSolar-X panel efficiency", top_k=3)
+    assert len(rrf_res) > 0
+    assert "rrf_score" in rrf_res[0]
+
+    # Test Tuned Hybrid Retriever
+    thyb = TunedHybridRetriever(bm25, semantic, best_alpha=0.6, best_beta=0.4)
+    thyb_res = thyb.search("NovaSolar-X panel efficiency", top_k=3)
+    assert len(thyb_res) > 0
+    assert thyb_res[0]["retriever"] == "tuned_hybrid"
 
     # Test Judge
     q_analysis = QueryAnalyzer.analyze("NovaSolar-X panel efficiency")

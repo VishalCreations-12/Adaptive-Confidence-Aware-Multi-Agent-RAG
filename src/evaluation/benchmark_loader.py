@@ -50,5 +50,11 @@ class BenchmarkLoader:
             item["primary_chunk_id"] = gt.get("primary_chunk_id", "")
             item["optimal_strategy"] = gt.get("optimal_strategy", "Hybrid Retrieval")
             item["expected_keywords"] = gt.get("expected_keywords", [])
+            item["split"] = q.get("split", gt.get("split", "test"))
             combined.append(item)
         return combined
+
+    def get_split_data(self, split: str = "test") -> List[Dict[str, Any]]:
+        """Filter benchmark data by split ('train', 'val', or 'test')."""
+        all_data = self.get_all_benchmark_data()
+        return [d for d in all_data if d.get("split") == split]

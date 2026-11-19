@@ -1,0 +1,71 @@
+{
+  "variants_evaluated": 6,
+  "summary_table": [
+    {
+      "variant": "A0: Full V2 System",
+      "n_queries": 40,
+      "mean_precision_at_k": 0.55,
+      "mean_recall_at_k": 0.6265,
+      "mean_mrr": 0.8833,
+      "mean_ndcg_at_k": 0.6929,
+      "mean_context_relevance": 0.895,
+      "mean_confidence": 0.6773,
+      "mean_latency_ms": 13.21
+    },
+    {
+      "variant": "A1: V2 w/o Query Traits",
+      "n_queries": 40,
+      "mean_precision_at_k": 0.55,
+      "mean_recall_at_k": 0.6265,
+      "mean_mrr": 0.8833,
+      "mean_ndcg_at_k": 0.6929,
+      "mean_context_relevance": 0.895,
+      "mean_confidence": 0.6773,
+      "mean_latency_ms": 12.05
+    },
+    {
+      "variant": "A2: V2 w/o Evidence Judge",
+      "n_queries": 40,
+      "mean_precision_at_k": 0.5833,
+      "mean_recall_at_k": 0.6641,
+      "mean_mrr": 0.8833,
+      "mean_ndcg_at_k": 0.7202,
+      "mean_context_relevance": 0.8825,
+      "mean_confidence": 0.5,
+      "mean_latency_ms": 4.57
+    },
+    {
+      "variant": "A3: V2 w/o Confidence Mechanism",
+      "n_queries": 40,
+      "mean_precision_at_k": 0.55,
+      "mean_recall_at_k": 0.6265,
+      "mean_mrr": 0.8833,
+      "mean_ndcg_at_k": 0.6929,
+      "mean_context_relevance": 0.895,
+      "mean_confidence": 0.5,
+      "mean_latency_ms": 12.02
+    },
+    {
+      "variant": "A4: V2 w/o Historical Memory",
+      "n_queries": 40,
+      "mean_precision_at_k": 0.5083,
+      "mean_recall_at_k": 0.5863,
+      "mean_mrr": 0.8708,
+      "mean_ndcg_at_k": 0.6534,
+      "mean_context_relevance": 0.9075,
+      "mean_confidence": 0.6762,
+      "mean_latency_ms": 9.19
+    },
+    {
+      "variant": "A5: Fixed Hybrid Baseline",
+      "n_queries": 40,
+      "mean_precision_at_k": 0.525,
+      "mean_recall_at_k": 0.6071,
+      "mean_mrr": 0.8708,
+      "mean_ndcg_at_k": 0.6689,
+      "mean_context_relevance": 0.9138,
+      "mean_confidence": 0.65,
+      "mean_latency_ms": 9.08
+    }
+  ]
+}

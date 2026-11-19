@@ -1,0 +1,1802 @@
+[
+  {
+    "query_id": "Q001",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q002",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q003",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q004",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q005",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q006",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q007",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q008",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q009",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q010",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q011",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q012",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q013",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q014",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q015",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q016",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.5307,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q017",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q018",
+    "category": "keyword-heavy",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q019",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q020",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q021",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q022",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q023",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q024",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q025",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q026",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q027",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q028",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q029",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q030",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q031",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q032",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q033",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q034",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q035",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q036",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.2961,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q037",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q038",
+    "category": "keyword-heavy",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q039",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q040",
+    "category": "keyword-heavy",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q041",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q042",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q043",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q044",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q045",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q046",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q047",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q048",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q049",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q050",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q051",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q052",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "Hybrid Retrieval",
+    "oracle_ndcg": 0.3066,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.3333
+  },
+  {
+    "query_id": "Q053",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q054",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q055",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q056",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.9197,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q057",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q058",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q059",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q060",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q061",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q062",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "Hybrid Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q063",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q064",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q065",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q066",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q067",
+    "category": "semantic",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q068",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q069",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q070",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q071",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q072",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 0.3066,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.3333
+  },
+  {
+    "query_id": "Q073",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q074",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q075",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q076",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.9197,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q077",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q078",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q079",
+    "category": "semantic",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q080",
+    "category": "semantic",
+    "split": "test",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q081",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q082",
+    "category": "numerical",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q083",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q084",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q085",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q086",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q087",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q088",
+    "category": "numerical",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q089",
+    "category": "numerical",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q090",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q091",
+    "category": "numerical",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q092",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q093",
+    "category": "numerical",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q094",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q095",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q096",
+    "category": "numerical",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q097",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q098",
+    "category": "numerical",
+    "split": "val",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.6934,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q099",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q100",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "Hybrid Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q101",
+    "category": "numerical",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q102",
+    "category": "numerical",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q103",
+    "category": "numerical",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q104",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q105",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q106",
+    "category": "numerical",
+    "split": "val",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.9197,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q107",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q108",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q109",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q110",
+    "category": "numerical",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q111",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q112",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q113",
+    "category": "numerical",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q114",
+    "category": "numerical",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q115",
+    "category": "numerical",
+    "split": "test",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q116",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q117",
+    "category": "factual",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q118",
+    "category": "factual",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q119",
+    "category": "factual",
+    "split": "val",
+    "oracle_strategy": "Tuned Hybrid Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q120",
+    "category": "factual",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q121",
+    "category": "factual",
+    "split": "val",
+    "oracle_strategy": "Tuned Hybrid Retrieval",
+    "oracle_ndcg": 0.9197,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q122",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q123",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q124",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q125",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q126",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q127",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q128",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q129",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q130",
+    "category": "factual",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q131",
+    "category": "factual",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q132",
+    "category": "factual",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q133",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q134",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q135",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q136",
+    "category": "factual",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q137",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q138",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q139",
+    "category": "factual",
+    "split": "test",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 0.9197,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q140",
+    "category": "factual",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q141",
+    "category": "factual",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q142",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q143",
+    "category": "factual",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q144",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q145",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q146",
+    "category": "factual",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q147",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q148",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q149",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q150",
+    "category": "factual",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.6131,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q151",
+    "category": "comparison",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q152",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.2346,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.3333
+  },
+  {
+    "query_id": "Q153",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q154",
+    "category": "comparison",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q155",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q156",
+    "category": "comparison",
+    "split": "test",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q157",
+    "category": "comparison",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q158",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q159",
+    "category": "comparison",
+    "split": "test",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q160",
+    "category": "comparison",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q161",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q162",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "Hybrid Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q163",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q164",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "Tuned Hybrid Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q165",
+    "category": "comparison",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.2346,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.3333
+  },
+  {
+    "query_id": "Q166",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q167",
+    "category": "comparison",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q168",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.4693,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q169",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.3869,
+    "oracle_p3": 0.3333,
+    "oracle_mrr": 0.5
+  },
+  {
+    "query_id": "Q170",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q171",
+    "category": "comparison",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q172",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q173",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "Hybrid Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q174",
+    "category": "comparison",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q175",
+    "category": "comparison",
+    "split": "val",
+    "oracle_strategy": "Tuned Hybrid Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q176",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q177",
+    "category": "multi-part",
+    "split": "test",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q178",
+    "category": "multi-part",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q179",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q180",
+    "category": "multi-part",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q181",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q182",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q183",
+    "category": "multi-part",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q184",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q185",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q186",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q187",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "Tuned Hybrid Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q188",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q189",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q190",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "Semantic Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q191",
+    "category": "multi-part",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q192",
+    "category": "multi-part",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q193",
+    "category": "multi-part",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q194",
+    "category": "multi-part",
+    "split": "test",
+    "oracle_strategy": "RRF Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q195",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7654,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q196",
+    "category": "multi-part",
+    "split": "val",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q197",
+    "category": "multi-part",
+    "split": "test",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q198",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q199",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "BM25 Retrieval",
+    "oracle_ndcg": 0.7039,
+    "oracle_p3": 0.6667,
+    "oracle_mrr": 1.0
+  },
+  {
+    "query_id": "Q200",
+    "category": "multi-part",
+    "split": "train",
+    "oracle_strategy": "Tuned Hybrid Retrieval",
+    "oracle_ndcg": 1.0,
+    "oracle_p3": 1.0,
+    "oracle_mrr": 1.0
+  }
+]

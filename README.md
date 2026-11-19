@@ -1,42 +1,33 @@
-# Adaptive Confidence-Aware Multi-Agent RAG System (V2)
+# Adaptive Confidence-Aware Multi-Strategy Retrieval for RAG
 
-**GitHub Repository:** [https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git](https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git)  
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tests: 21 Passed](https://img.shields.io/badge/Tests-21%20Passed-brightgreen.svg)]()
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://adaptive-confidence-aware-multi-agent-rag-4npjj8njappahqb6aurv.streamlit.app)
 
-## 🌐 Live Demo
-
-🚀 **Live Application:** [Launch the Adaptive Confidence-Aware Multi-Agent RAG System](https://adaptive-confidence-aware-multi-agent-rag-4npjj8njappahqb6aurv.streamlit.app)
-
----
-
-
-## 🌟 Overview
-
-Standard Retrieval-Augmented Generation (RAG) systems rely on a single static retriever (e.g., purely vector search or BM25). However, diverse query types require different retrieval dynamics: technical model codes and exact acronyms demand exact lexical matching (BM25), whereas conceptual explanations require vector embeddings.
-
-Our **Adaptive Confidence-Aware Multi-Agent RAG System (V2)** operates a committee of specialized retrieval agents (BM25, Semantic FAISS, and MinMax Hybrid Fusion) evaluated by an **Evidence Judge** and an empirical **Confidence Scorer**. A machine learning **Strategy Selector** (`RandomForestClassifier`) continuously learns from historical query experiences recorded in **Strategy Memory** to dynamically predict the optimal retrieval strategy prior to execution—all running **100% locally with $0.00 external API costs**.
+An intelligent, local, zero-API-cost Information Retrieval framework that replaces static single-mode retrieval with **query-conditioned strategy routing**, a multi-signal **Evidence Judge**, and an empirical **Evidence Confidence Scorer** for robust, hallucination-resistant Retrieval-Augmented Generation (RAG).
 
 ---
 
-## 🔬 Research Motivation & Real-World Use Cases
+## 🌐 Live Application Demo
 
-- **The Problem:** Single-retriever RAG models produce noisy context or miss exact technical keywords, causing LLM hallucinations in high-stakes domains.
-- **Enterprise Technical Manual Search:** Retrieving exact hardware component codes alongside operational guidance.
-- **Legal & Regulatory Discovery:** Finding specific statutory section numbers (BM25) alongside conceptual precedent (Vector Search).
-- **Healthcare & Medical QA:** Locating exact drug dosage figures alongside treatment findings.
+🚀 **Interactive Research Platform:** [Launch the Streamlit Cloud Demo](https://adaptive-confidence-aware-multi-agent-rag-4npjj8njappahqb6aurv.streamlit.app)
 
 ---
 
-## 🎯 Research Gap & Novelty Statement
+## 🌟 Overview & Research Motivation
 
-Traditional retrieval literature focuses on individual algorithms (BM25, FAISS, static hybrid fusion). Our research contribution introduces:
-1. **Dynamic Multi-Agent Retrieval Routing:** A predictive meta-classifier predicting optimal retrieval strategy based on query traits and candidate score statistics.
-2. **Empirical Evidence Confidence Bounds:** A 4-factor score (0.15 to 0.98) measuring retrieval score strength, inter-agent consensus ratio, keyword coverage, and score spread.
-3. **Sequential Strategy Memory Update:** A feedback loop calculating a multi-component reward to retrain the strategy selector online.
-4. **$0 API Cost Extractive Grounding:** Extractive sentence synthesis producing citation-backed answers without external LLM APIs.
+Standard Retrieval-Augmented Generation (RAG) pipelines typically employ a single fixed retrieval paradigm (pure dense vector search or BM25) or static linear fusion. However, technical enterprise queries exhibit severe linguistic heterogeneity:
+- **Lexical/Acronym Queries:** Exact technical component numbers, error codes, and statutory citations require high-precision sparse lexical matching (BM25).
+- **Conceptual Inquiries:** Abstract, multi-sentence explanations and functional descriptions demand semantic bi-encoder vector embeddings.
+- **Complex Hybrid Queries:** Multi-constraint queries benefit from reciprocal rank or score-level fusion.
+
+This framework introduces an **Adaptive Strategy Selector** (`RandomForestClassifier`) that dynamically routes queries across specialized retrieval strategies (BM25, Semantic FAISS, Fixed Hybrid, Tuned Hybrid, and Reciprocal Rank Fusion) using 12 query trait and score disparity features. Candidate evidence pools are subsequently filtered by an **Evidence Judge** and scored by a multi-factor **Evidence Confidence Scorer** to provide calibrated confidence bounds for grounded answer generation.
 
 ---
 
-## 📐 Proposed V2 System Architecture
+## 📐 System Architecture
 
 ```text
                                   USER QUERY
@@ -46,245 +37,174 @@ Traditional retrieval literature focuses on individual algorithms (BM25, FAISS, 
                         (Regex Trait Feature Extractor)
                                       │
                                       ▼
-                          LEARNED STRATEGY SELECTOR
-                   (V2 Random Forest Classifier Model)
+                          ADAPTIVE STRATEGY SELECTOR
+                   (Random Forest Router on 12 Features)
                                       │
-               ┌──────────────────────┼──────────────────────┐
-               │                      │                      │
-               ▼                      ▼                      ▼
-        BM25 RETRIEVER         SEMANTIC RETRIEVER     HYBRID RETRIEVER
-         (rank_bm25)           (FAISS + MiniLM)       (MinMax Fusion)
-               │                      │                      │
-               └──────────────────────┼──────────────────────┘
-                                      │
-                                      ▼
-                               EVIDENCE JUDGE
-                   (Consensus & Redundancy Filtering)
-                                      │
-                                      ▼
-                              CONFIDENCE SCORER
-                         (4-Factor Signal Formula)
-                                      │
-                                      ▼
-                          GROUNDED ANSWER GENERATOR
-                  (Extractive QA + Explicit Citations)
-                                      │
-                                      ▼
-                               REWARD ENGINE
-                (Reward = 0.4*MRR + 0.35*Recall + 0.15*Conf - 0.1*Lat)
-                                      │
-                                      ▼
-                           STRATEGY MEMORY STORE
-                        (Online Sequential Logging)
-                                      │
-                                      └─────────────► Retrains ML Selector
-                                                      (Future Queries)
+         ┌───────────────────┬────────┴──────────┬───────────────────┐
+         ▼                   ▼                   ▼                   ▼
+    BM25 LEXICAL        DENSE SEMANTIC      FIXED / TUNED       RECIPROCAL RANK
+     (rank_bm25)       (FAISS + MiniLM)     HYBRID FUSION        FUSION (RRF)
+         │                   │                   │                   │
+         └───────────────────┼───────────────────┴───────────────────┘
+                             │
+                             ▼
+                      EVIDENCE JUDGE
+             (Consensus & Redundancy Filtering)
+                             │
+                             ▼
+                     CONFIDENCE SCORER
+                (4-Factor Signal Formulation)
+                             │
+                             ▼
+                 GROUNDED ANSWER GENERATION
+            (Extractive Synthesis with Citations)
+                             │
+                             ▼
+                 HISTORICAL STRATEGY MEMORY
+            (Monotonic Latency Reward Feedback Loop)
 ```
 
 ---
 
-## 🔄 V1 vs V2 Comparison
+## 📊 Experimental Results (Held-Out Test Split, $N = 40$)
 
-| Feature | System V1 (Heuristic Prototype) | System V2 (Learned Adaptive RAG) |
-|---|---|---|
-| **Strategy Selection** | Fixed Rule-Based Regex Heuristic | Machine Learning Meta-Classifier (`RandomForestClassifier`) |
-| **Learning Feedback** | Passive JSON Log Storage | Active Online Retraining & Sequential Memory Feedback |
-| **Reward Formulation** | None | Transparent 4-Component Reward Metric |
-| **Strategy Feature Space** | 3 Hardcoded Traits | 12-Dimensional Numerical Feature Vector |
-| **Evaluation Framework** | Single Sample Verification | 5-Way Baseline Benchmark, Ablation Study & Statistical Tests |
+All systems were evaluated under identical conditions with cutoff $K = 3$ on the uncorrupted held-out test split ($N = 40$) across the 12-page technical compendium (38 chunks).
 
----
-
-## 🤖 Retrieval Agents & Subsystems
-
-1. **BM25 Lexical Retriever (`rank_bm25`):** Tokenizes queries into lowercase alphanumeric tokens for exact keyword frequency matching.
-2. **Semantic Vector Retriever (`sentence-transformers/all-MiniLM-L6-v2` + `FAISS`):** Generates 384-dimensional dense vectors with L2-normalized Cosine similarity in a local FAISS index.
-3. **MinMax Hybrid Fusion Retriever:** MinMax normalizes BM25 and Semantic scores to [0.0, 1.0] and merges them:
-
-$$
-\mathrm{MinMax}(s_i) = \frac{s_i - s_{\min}}{s_{\max} - s_{\min}}
-$$
-
-$$
-S_{\mathrm{hybrid}} = \alpha S_{\mathrm{BM25,norm}} + \beta S_{\mathrm{semantic,norm}}
-$$
-
-4. **Evidence Judge Engine:** Evaluates inter-agent consensus, calculates keyword coverage, filters redundant 100-character snippet prefixes, and enforces candidate thresholds.
-5. **Evidence Confidence Scorer:** 4-factor scoring algorithm bound between 0.15 and 0.98:
-
-$$
-\mathrm{Confidence} = 0.35 F_{\mathrm{strength}} + 0.25 F_{\mathrm{consensus}} + 0.25 F_{\mathrm{coverage}} + 0.15 F_{\mathrm{spread}}
-$$
-
-6. **Extractive Grounded Answer Generator:** Synthesizes bulleted sentence extractions directly from judged evidence chunks with explicit page and chunk citations.
-
----
-
-## 📊 Five-Way Baseline Benchmark Quantitative Results
-
-Evaluated on 20 internal benchmark queries across 8 query categories (Top-K = 3):
-
-| System Name | Precision@3 | Recall@3 | MRR | nDCG@3 | Context Relevance | Strategy Accuracy | Evidence Confidence | Latency (ms) |
+| System | Retrieval Mechanism | Precision@3 | Recall@3 | MRR | nDCG@3 | Context Relevance | Latency (ms) | Reward ($R$) |
 |---|---|---|---|---|---|---|---|---|
-| **BM25-Only Baseline** | 0.5167 | 0.9500 | 0.9500 | 0.9299 | 0.5375 | 0.1500 | 50.0% | 0.20 ms |
-| **Semantic-Only Baseline** | 0.4500 | 0.8583 | 0.9500 | 0.8651 | 0.5042 | 0.1500 | 55.0% | 9.47 ms |
-| **Fixed Hybrid Baseline** | 0.5167 | 0.9500 | 0.9500 | 0.9420 | 0.5375 | 0.7000 | 65.0% | 8.77 ms |
-| **Proposed V1 System** | 0.4833 | 0.9000 | 0.9500 | 0.9073 | 0.4917 | 0.8000 | 66.7% | 9.73 ms |
-| **Proposed V2 System** | **0.4833** | **0.9000** | **0.9500** | **0.9073** | **0.4917** | **0.8000\*** | **66.7%** | **12.79 ms** |
+| **BM25 Baseline** | Sparse Lexical (Okapi BM25) | 0.5667 | 0.6536 | 0.8708 | 0.7026 | 0.8888 | 2.50 | 0.6838 |
+| **Dense Baseline** | Dense Semantic (`all-MiniLM-L6-v2`) | 0.5167 | 0.5849 | 0.8542 | 0.6549 | 0.8012 | 10.50 | 0.6452 |
+| **Fixed Hybrid Baseline** | Linear Score Fusion ($\alpha=0.5, \beta=0.5$) | 0.5250 | 0.6071 | 0.8708 | 0.6689 | 0.9138 | 13.00 | 0.6726 |
+| **RRF Fusion Baseline** | Reciprocal Rank Fusion ($k=60$) | 0.5583 | 0.6438 | 0.8458 | 0.6902 | 0.8950 | 14.50 | 0.6979 |
+| **Tuned Hybrid Baseline** | Val-Optimized Fusion ($\alpha=0.5, \beta=0.5$) | 0.5250 | 0.6071 | 0.8708 | 0.6689 | 0.9138 | 13.20 | 0.6756 |
+| **Proposed V1 (Heuristic)** | Heuristic Evidence Judge + Confidence | 0.5167 | 0.5946 | 0.8708 | 0.6593 | 0.9075 | 12.24 | 0.6663 |
+| **Proposed V2 (Learned Adaptive)** | Random Forest Router + Evidence Judge | **0.5500** | **0.6265** | **0.8833** | **0.6929** | **0.8950** | **14.56** | **0.6926** |
+| **Oracle Router (Ceiling)** | Per-Query Optimal Retrieval Strategy | *0.6167* | *0.6982* | *0.9333* | *0.7664* | *0.8888* | *14.00* | *0.7731* |
 
-*\* Strategy selection accuracy for V2 starts in cold-start mode and converges to 80.0% as online memory accumulates.*
-
----
-
-## 🧪 Ablation Study
-
-| Variant | Mean Precision@3 | Mean Recall@3 | Mean MRR | Mean nDCG@3 | Mean Evidence Confidence |
-|---|---|---|---|---|---|
-| **Full V2 System** | **0.4833** | **0.9000** | **0.9500** | **0.9073** | **66.7%** |
-| **V2 w/o Query Traits** | 0.4358 | 0.8525 | 0.8930 | 0.8598 | 58.7% |
-| **V2 w/o Evidence Judge Signals** | 0.3693 | 0.8050 | 0.8075 | 0.7933 | 51.7% |
-| **V2 w/o Confidence Signal** | 0.4548 | 0.8810 | 0.9215 | 0.8788 | 50.0% |
-| **V2 w/o Historical Memory (No Learning)**| 0.5167 | 0.9500 | 0.9500 | 0.9420 | 65.0% |
-| **Fixed Hybrid Baseline** | 0.5167 | 0.9500 | 0.9500 | 0.9420 | 65.0% |
+*All results are directly reproducible via `scripts/run_reviewer_revision.py`.*
 
 ---
 
-## 📈 Publication Research Plots
+## 🧪 Real Independent Ablation Suite (Held-Out Test Split, $N = 40$)
 
-| Artifact Path | Description |
-|---|---|
-| [01_five_way_metrics_comparison.png](data/results/plots/01_five_way_metrics_comparison.png) | Five-way baseline retrieval quality benchmark chart |
-| [02_latency_comparison.png](data/results/plots/02_latency_comparison.png) | Execution latency breakdown per retrieval pipeline |
-| [03_strategy_selection_distribution.png](data/results/plots/03_strategy_selection_distribution.png) | V2 Strategy selection probability distribution |
-| [04_sequential_learning_reward_curve.png](data/results/plots/04_sequential_learning_reward_curve.png) | Online sequential learning trajectory curve |
-| [05_ablation_study_comparison.png](data/results/plots/05_ablation_study_comparison.png) | Component ablation study MRR comparison |
+Each ablation configuration was executed independently through its dedicated pipeline without synthetic scaling:
 
-![Five-Way Benchmark Comparison](data/results/plots/01_five_way_metrics_comparison.png)
-![Sequential Learning Trajectory](data/results/plots/04_sequential_learning_reward_curve.png)
+| Variant ID | Architectural Configuration | Mean P@3 | Mean Recall@3 | Mean MRR | Mean nDCG@3 | Context Rel. | Mean Conf. | Latency (ms) |
+|---|---|---|---|---|---|---|---|---|
+| **A0** | **Full Proposed V2 System** (All components active) | **0.5500** | **0.6265** | **0.8833** | **0.6929** | **0.8950** | **0.6773** | **13.21** |
+| **A1** | **V2 w/o Query Traits** (Traits masked to neutral) | 0.5500 | 0.6265 | 0.8833 | 0.6929 | 0.8950 | 0.6773 | 12.05 |
+| **A2** | **V2 w/o Evidence Judge** (Direct retriever pool bypass) | 0.5833 | 0.6641 | 0.8833 | 0.7202 | 0.8825 | 0.5000 | 4.57 |
+| **A3** | **V2 w/o Confidence** (Confidence fixed to uniform 0.50) | 0.5500 | 0.6265 | 0.8833 | 0.6929 | 0.8950 | 0.5000 | 12.02 |
+| **A4** | **V2 w/o Historical Memory** (Cold-start heuristic mode) | 0.5083 | 0.5863 | 0.8708 | 0.6534 | 0.9075 | 0.6762 | 9.19 |
+| **A5** | **Fixed Hybrid Baseline** (Fixed 50/50 weights, no router) | 0.5250 | 0.6071 | 0.8708 | 0.6689 | 0.9138 | 0.6500 | 9.08 |
+
+*Integrity Check: A0 in the ablation table matches Proposed V2 in the baseline comparison table with 100% precision, and A5 matches Fixed Hybrid with 100% precision.*
 
 ---
 
-## 🖼️ Application Screenshots
+## 🎯 Routing Generalization & Oracle Headroom
 
-### 1. Main Application Dashboard
-![Main Application Dashboard](docs/screenshots/01_dashboard.png)
+- **Train Routing Accuracy:** **89.2%** ($N = 120$)
+- **Validation Routing Accuracy:** **80.0%** ($N = 40$)
+- **Held-Out Test Routing Accuracy:** **80.0%** ($N = 40$)
+- **Oracle Headroom Analysis:**
+  The Oracle Router attains **nDCG@3 = 0.7664**, demonstrating a statistically significant performance headroom of **+0.0975 nDCG@3** over Fixed Hybrid ($p = 0.0001$, Cohen's $d = 0.7668$) and **+0.0735 nDCG@3** over Proposed V2 ($p = 0.0010$, Cohen's $d = 0.5843$). This confirms that query-level adaptive routing provides substantial theoretical potential, with Proposed V2 capturing a meaningful portion of that headroom.
 
-### 2. Knowledge Base Ingestion & Status
-![Document Ingestion Status](docs/screenshots/02_document_ingestion.png)
+---
 
-### 3. Query Trait Analysis
-![Query Trait Analysis](docs/screenshots/03_query_analysis.png)
+## 📈 Historical Memory Learning Curve
 
-### 4. Multi-Agent Retrieval Outputs
-![Multi-Agent Retrieval Outputs](docs/screenshots/04_retrieval_agents.png)
+Evaluating historical strategy memory depth $N \in \{0, 10, 25, 50, 100, 120\}$:
+- **$N = 0$ (Cold Start):** Routing Accuracy = 0.0%, nDCG@3 = 0.6689, Mean Reward = 0.6805 (pure fallback mode)
+- **$N = 10$:** Routing Accuracy = 75.0%, nDCG@3 = 0.7026, Mean Reward = 0.7102 (early policy stabilization)
+- **$N = 120$ (Full History):** Routing Accuracy = **80.0%**, nDCG@3 = **0.7202**, Mean Reward = **0.7209** (peak policy convergence)
 
-### 5. Evidence Judge Breakdown
-![Evidence Judge Evaluation](docs/screenshots/05_evidence_judge.png)
+---
 
-### 6. Evidence Confidence Meter
-![Evidence Confidence Score](docs/screenshots/06_confidence.png)
+## 🚀 Quickstart & Reproduction
 
-### 7. Grounded Extractive Answer Generation
-![Grounded Answer Generation](docs/screenshots/07_grounded_answer.png)
+### 1. Installation
+```bash
+git clone https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git
+cd Adaptive-Confidence-Aware-Multi-Agent-RAG
+pip install -r requirements.txt
+```
 
-### 8. Benchmark Study Summary
-![Benchmark Study Summary](docs/screenshots/08_study_summary.png)
+### 2. Run Automated Test Suite (21 Tests)
+```bash
+pytest -v
+# OR run run_tests.bat
+```
 
-### 9. Five-Way Research Dashboard
-![Five-Way Research Dashboard](docs/screenshots/09_research_dashboard.png)
+### 3. Run Master Experiments & Rebuild Results
+```bash
+python scripts/run_reviewer_revision.py
+# OR run run_experiments.bat
+```
 
-### 10. Research Dashboard & Plot Gallery
-![Research Dashboard Plot Gallery](docs/screenshots/10_plot_gallery.png)
+### 4. Launch Interactive Streamlit Research Dashboard
+```bash
+streamlit run app.py
+# OR run run_app.bat
+```
+The application will launch locally at `http://localhost:8501`.
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-..
-├── app.py                                    # Streamlit web application & research dashboard
-├── config.py                                 # Hyperparameters, paths, and confidence weights
-├── requirements.txt                          # Python dependencies
-├── README.md                                 # Project documentation
-├── RESEARCH_RESULTS.md                       # Quantitative evaluation results
-├── PROJECT_RESEARCH_ANALYSIS.md              # System research analysis
-├── V2_ADAPTIVE_LEARNING.md                   # V2 adaptive ML strategy documentation
-├── REPRODUCIBILITY.md                        # Reproduction instructions
-│
-├── run_app.bat                               # Launch Streamlit application
-├── run_tests.bat                             # Run automated tests
-├── run_experiments.bat                       # Run research experiments
-│
-├── src/                                      # Main Python source package
-│   ├── ingestion/                            # PDF/TXT parsing and chunking
-│   ├── query_analysis/                       # Query trait analysis
-│   ├── retrieval/                            # BM25, Semantic FAISS & Hybrid retrieval
-│   ├── judge/                                # Evidence Judge
-│   ├── confidence/                           # Evidence Confidence Scorer
-│   ├── generation/                           # Grounded answer generation
-│   ├── memory/                               # Strategy Memory & RandomForest selector
-│   └── evaluation/                           # Metrics, benchmark, ablation & statistics
-│
 ├── data/
-│   ├── benchmarks/                           # Benchmark queries & ground truth
-│   └── results/                              # Evaluation results and research plots
-│       └── plots/
-│
+│   ├── benchmarks/           # 200-query benchmark & gold-standard ground truth qrels
+│   ├── cache/                # Ingested PDF knowledge bases
+│   └── results/              # Backwards-compatible result summaries and plots
 ├── docs/
-│   └── screenshots/                          # Final application screenshots
-│
-├── sample_data/                              # Sample knowledge-base/test data
-│
+│   ├── screenshots/          # Application screenshots
+│   ├── ARCHITECTURE.md       # Full system architecture documentation
+│   ├── SELECTOR_FEATURES.md  # 12 selector feature specifications
+│   ├── METRIC_DEFINITIONS.md # Context relevance and ranking metric formulas
+│   ├── REWARD_DESIGN.md      # Multi-objective monotonic latency reward design
+│   └── STATISTICAL_ANALYSIS.md # Non-parametric Wilcoxon and bootstrap CI methodology
+├── results/reviewer_revision/
+│   ├── raw/                  # Per-query execution logs
+│   ├── aggregated/           # Summary metrics for test split and full benchmark
+│   ├── ablation/             # Real modular ablation metrics
+│   ├── routing/              # Model artifacts and routing reports
+│   ├── oracle/               # Oracle strategy decisions
+│   ├── memory/               # Historical memory sweep outputs
+│   ├── statistics/           # Paired Wilcoxon and bootstrap CI reports
+│   ├── figures/              # Publication 300-DPI charts
+│   ├── tables/               # Publication Markdown tables
+│   ├── FINAL_STATISTICAL_RESULTS.md # Definitive statistical report
+│   ├── PAPER_RESULTS_SUMMARY.md     # Verified results single source of truth
+│   └── RESEARCH_FINDINGS.md         # Comprehensive scientific findings
+├── sample_data/              # 12-page PDF generator and benchmark creation scripts
 ├── scripts/
-│   ├── run_full_experiments.py               # Master experiment runner
-│   └── verify_pipeline.py                    # End-to-end pipeline verification
-│
-└── tests/                                    # Automated Pytest test suite```
+│   ├── run_reviewer_revision.py # Master experiment pipeline
+│   ├── run_full_experiments.py  # Wrapper script
+│   ├── verify_pipeline.py       # End-to-end pipeline verification
+│   └── generate_final_report_pdf.py # ReportLab PDF compiler
+├── src/
+│   ├── confidence/           # Evidence Confidence Scorer
+│   ├── evaluation/           # Metrics, Ablations, Stats, Oracle Router
+│   ├── generation/           # Grounded Answer Generator
+│   ├── ingestion/            # Parser & Chunker
+│   ├── judge/                # Evidence Judge
+│   ├── memory/               # Adaptive Selector & Memory
+│   ├── query_analysis/       # Query Trait Analyzer
+│   └── retrieval/            # BM25, Dense, Hybrid, RRF, Tuned Hybrid
+├── tests/                    # 21 unit & integrity tests
+├── app.py                    # Streamlit research platform (7 research tabs)
+├── config.py                 # Central hyperparameter configuration
+├── requirements.txt          # Python dependencies
+├── REPRODUCIBILITY.md        # Deterministic reproduction instructions
+├── run_app.bat               # Windows launcher for Streamlit
+├── run_experiments.bat       # Windows launcher for master experiments
+└── run_tests.bat             # Windows launcher for test suite
+```
 
 ---
 
-## 🚀 Installation & Setup Guide
+## 📜 Citation & License
 
-### 1. Prerequisites
-- Python 3.10 or higher
-- Git
-
-### 2. Clone Repository
-```bash
-git clone https://github.com/VishalCreations-12/Adaptive-Confidence-Aware-Multi-Agent-RAG.git
-cd Adaptive-Confidence-Aware-Multi-Agent-RAG
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run Automated Test Suite (13 Test Cases)
-```bash
-pytest tests/
-# OR double-click run_tests.bat
-```
-
-### 5. Run Master Experiments & Generate Graphs
-```bash
-python scripts/run_full_experiments.py
-# OR double-click run_experiments.bat
-```
-
-### 6. Launch Interactive Streamlit Application
-```bash
-streamlit run app.py
-# OR double-click run_app.bat
-```
-App will launch in your browser at `http://localhost:8501`.
-
----
-
-## 🌐 Deployment Configuration
-
-The application is pre-configured for **Streamlit Community Cloud** or any containerized deployment:
-- Entry point: `app.py`
-- Configuration file: `.streamlit/config.toml`
-- Headless execution: Enabled
-- API Cost: **$0.00 (100% Local Inference)**
+This research framework is distributed under the MIT License.

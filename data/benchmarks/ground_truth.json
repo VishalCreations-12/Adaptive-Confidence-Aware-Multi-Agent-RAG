@@ -1,179 +1,3140 @@
 {
-  "benchmark_name": "NovaTech Research Multi-Agent Retrieval Ground Truth Benchmark",
-  "version": "2.0",
-  "total_queries": 20,
+  "benchmark_name": "NovaTech Expanded Multi-Domain Retrieval Benchmark",
+  "version": "3.0",
+  "total_queries": 200,
+  "total_chunks": 38,
+  "split_summary": {
+    "train": 120,
+    "val": 40,
+    "test": 40
+  },
   "ground_truth": {
-    "Q01": {
+    "Q001": {
       "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "novasync",
+        "v3.2",
+        "aes-256-gcm",
+        "curve25519",
+        "zero-trust"
+      ],
+      "split": "val"
+    },
+    "Q002": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
         "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
         "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
       "optimal_strategy": "BM25 Retrieval",
-      "expected_keywords": ["novasync", "v3.2", "aes-256", "10 gbps", "sub-5ms", "proof-of-state"]
-    },
-    "Q02": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_3"
+      "expected_keywords": [
+        "ns-520-qx",
+        "28.4%",
+        "tandem",
+        "perovskite",
+        "520"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
-      "optimal_strategy": "BM25 Retrieval",
-      "expected_keywords": ["novasolar-x", "24.5%", "25-year", "silicon-perovskite"]
+      "split": "test"
     },
-    "Q03": {
+    "Q003": {
       "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "ag-400-uav",
+        "peek",
+        "nv-2207",
+        "85 km/h"
+      ],
+      "split": "val"
+    },
+    "Q004": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "nv-x2",
+        "7nm",
+        "32.5 tops",
+        "lpddr5",
+        "14.5"
+      ],
+      "split": "train"
+    },
+    "Q005": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "pos-v2",
+        "10.4 gbps",
+        "sub-5",
+        "byzantine"
+      ],
+      "split": "train"
+    },
+    "Q006": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_10"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_10",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "49.8",
+        "13.45",
+        "-0.28%/\u00b0c",
+        "voc"
+      ],
+      "split": "test"
+    },
+    "Q007": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "flir boson",
+        "640x512",
+        "imx586",
+        "48 mp",
+        "lidar"
+      ],
+      "split": "test"
+    },
+    "Q008": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "ml-kem",
+        "kyber-768",
+        "ml-dsa",
+        "dilithium-3",
+        "fips 140-3"
+      ],
+      "split": "test"
+    },
+    "Q009": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "mwcnt",
+        "carbon nanotube",
+        "18.5 w/m-k",
+        "tim"
+      ],
+      "split": "test"
+    },
+    "Q010": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "novaos",
+        "rust",
+        "microkernel",
+        "1.8",
+        "rtos"
+      ],
+      "split": "train"
+    },
+    "Q011": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "30-year",
+        "0.35%",
+        "ald",
+        "degradation"
+      ],
+      "split": "train"
+    },
+    "Q012": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "munich",
+        "ce mark",
+        "iec 61215",
+        "easa",
+        "sts-01"
+      ],
+      "split": "train"
+    },
+    "Q013": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "iso 14001",
+        "scope 1",
+        "net-zero",
+        "2027"
+      ],
+      "split": "train"
+    },
+    "Q014": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "deionization",
+        "reverse-osmosis",
+        "82.5%",
+        "65%"
+      ],
+      "split": "train"
+    },
+    "Q015": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "nist",
+        "soc 2",
+        "mttd",
+        "4.2",
+        "mttr"
+      ],
+      "split": "test"
+    },
+    "Q016": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34"
       ],
       "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
       "optimal_strategy": "BM25 Retrieval",
-      "expected_keywords": ["aeroguide", "85 km/h", "novaengine v2", "optical-thermal"]
-    },
-    "Q04": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_7"
+      "expected_keywords": [
+        "zstandard",
+        "zstd",
+        "ota",
+        "a/b",
+        "rollback"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
-      "optimal_strategy": "Semantic Retrieval",
-      "expected_keywords": ["green manufacturing", "recyclable", "emissions", "sustainability"]
+      "split": "test"
     },
-    "Q05": {
+    "Q017": {
       "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
-      "optimal_strategy": "Semantic Retrieval",
-      "expected_keywords": ["zero-trust", "distributed", "node", "encryption"]
-    },
-    "Q06": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "hydrophobic",
+        "115\u00b0",
+        "94%",
+        "12%",
+        "soiling"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
-      "optimal_strategy": "Semantic Retrieval",
-      "expected_keywords": ["drone swarm", "autonomous", "payload", "mesh"]
+      "split": "val"
     },
-    "Q07": {
+    "Q018": {
       "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_3"
-      ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["25-year", "24.5%", "novasolar-x"]
-    },
-    "Q08": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_1"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
       ],
       "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["boston", "headquartered", "novatech"]
-    },
-    "Q09": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_4"
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "cambridge",
+        "technology square",
+        "series b",
+        "$45.0"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["45-minute", "battery", "aeroguide"]
+      "split": "test"
     },
-    "Q10": {
+    "Q019": {
       "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
         "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["$42.5 million", "34%", "r&d", "q3 2025"]
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "series b",
+        "horizon",
+        "apex",
+        "$72.5"
+      ],
+      "split": "train"
     },
-    "Q11": {
+    "Q020": {
       "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "yolo-v9",
+        "8.5",
+        "slam",
+        "60 fps",
+        "tpu"
+      ],
+      "split": "val"
+    },
+    "Q021": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "novasync",
+        "v3.2",
+        "aes-256-gcm",
+        "curve25519",
+        "zero-trust"
+      ],
+      "split": "train"
+    },
+    "Q022": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
         "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
         "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["10 gbps", "10,000", "nodes"]
-    },
-    "Q12": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_7"
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "ns-520-qx",
+        "28.4%",
+        "tandem",
+        "perovskite",
+        "520"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["$12 million", "2026", "munich"]
+      "split": "train"
     },
-    "Q13": {
+    "Q023": {
       "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_1"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["aris thorne", "elena rostova", "ceo", "cto"]
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "ag-400-uav",
+        "peek",
+        "nv-2207",
+        "85 km/h"
+      ],
+      "split": "train"
     },
-    "Q14": {
+    "Q024": {
       "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "nv-x2",
+        "7nm",
+        "32.5 tops",
+        "lpddr5",
+        "14.5"
+      ],
+      "split": "train"
+    },
+    "Q025": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "pos-v2",
+        "10.4 gbps",
+        "sub-5",
+        "byzantine"
+      ],
+      "split": "train"
+    },
+    "Q026": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_10"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_10",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "49.8",
+        "13.45",
+        "-0.28%/\u00b0c",
+        "voc"
+      ],
+      "split": "train"
+    },
+    "Q027": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "flir boson",
+        "640x512",
+        "imx586",
+        "48 mp",
+        "lidar"
+      ],
+      "split": "train"
+    },
+    "Q028": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "ml-kem",
+        "kyber-768",
+        "ml-dsa",
+        "dilithium-3",
+        "fips 140-3"
+      ],
+      "split": "val"
+    },
+    "Q029": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "mwcnt",
+        "carbon nanotube",
+        "18.5 w/m-k",
+        "tim"
+      ],
+      "split": "train"
+    },
+    "Q030": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "novaos",
+        "rust",
+        "microkernel",
+        "1.8",
+        "rtos"
+      ],
+      "split": "train"
+    },
+    "Q031": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "30-year",
+        "0.35%",
+        "ald",
+        "degradation"
+      ],
+      "split": "train"
+    },
+    "Q032": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "munich",
+        "ce mark",
+        "iec 61215",
+        "easa",
+        "sts-01"
+      ],
+      "split": "train"
+    },
+    "Q033": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "iso 14001",
+        "scope 1",
+        "net-zero",
+        "2027"
+      ],
+      "split": "train"
+    },
+    "Q034": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "deionization",
+        "reverse-osmosis",
+        "82.5%",
+        "65%"
+      ],
+      "split": "val"
+    },
+    "Q035": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "nist",
+        "soc 2",
+        "mttd",
+        "4.2",
+        "mttr"
+      ],
+      "split": "train"
+    },
+    "Q036": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34"
       ],
       "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["novaengine v2", "neural", "edge"]
-    },
-    "Q15": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_4"
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "zstandard",
+        "zstd",
+        "ota",
+        "a/b",
+        "rollback"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_3",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["novasolar-x", "aeroguide", "efficiency", "battery"]
+      "split": "train"
     },
-    "Q16": {
+    "Q037": {
       "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_8"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
-      "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["10 gbps", "novasync", "throughput"]
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "hydrophobic",
+        "115\u00b0",
+        "94%",
+        "12%",
+        "soiling"
+      ],
+      "split": "train"
     },
-    "Q17": {
+    "Q038": {
       "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_7"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "cambridge",
+        "technology square",
+        "series b",
+        "$45.0"
+      ],
+      "split": "train"
+    },
+    "Q039": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "series b",
+        "horizon",
+        "apex",
+        "$72.5"
+      ],
+      "split": "val"
+    },
+    "Q040": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "BM25 Retrieval",
+      "expected_keywords": [
+        "yolo-v9",
+        "8.5",
+        "slam",
+        "60 fps",
+        "tpu"
+      ],
+      "split": "val"
+    },
+    "Q041": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "silicon-perovskite",
+        "tandem",
+        "thermalization",
+        "bandgap"
+      ],
+      "split": "train"
+    },
+    "Q042": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "zero-trust",
+        "cryptographic",
+        "micro-authentication",
+        "encryption"
+      ],
+      "split": "train"
+    },
+    "Q043": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "autonomous",
+        "decentralized",
+        "mesh",
+        "swarm"
+      ],
+      "split": "test"
+    },
+    "Q044": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "closed-loop",
+        "recycling",
+        "aluminum",
+        "decarbonization"
+      ],
+      "split": "train"
+    },
+    "Q045": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "consensus",
+        "byzantine",
+        "attestation"
+      ],
+      "split": "train"
+    },
+    "Q046": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "slam",
+        "neural processor",
+        "localization",
+        "mapping"
+      ],
+      "split": "val"
+    },
+    "Q047": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "net-zero",
+        "greenhouse",
+        "scope",
+        "2027",
+        "solar"
+      ],
+      "split": "train"
+    },
+    "Q048": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "post-quantum",
+        "cryptographic",
+        "migration",
+        "kyber",
+        "dilithium"
+      ],
+      "split": "test"
+    },
+    "Q049": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "carbon nanotube",
+        "thermal",
+        "dissipate",
+        "heat"
+      ],
+      "split": "train"
+    },
+    "Q050": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "rust",
+        "microkernel",
+        "capability-based",
+        "isolate"
+      ],
+      "split": "val"
+    },
+    "Q051": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "hydrophobic",
+        "self-cleaning",
+        "dust",
+        "soiling"
+      ],
+      "split": "train"
+    },
+    "Q052": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "governance",
+        "iso 9001",
+        "iso 27001",
+        "compliance"
+      ],
+      "split": "val"
+    },
+    "Q053": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "firmware",
+        "rollback",
+        "ota",
+        "partition"
+      ],
+      "split": "train"
+    },
+    "Q054": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "optical-thermal",
+        "radiometric",
+        "survivors",
+        "reconnaissance"
+      ],
+      "split": "train"
+    },
+    "Q055": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "capital expenditure",
+        "expansion",
+        "munich",
+        "budget"
+      ],
+      "split": "train"
+    },
+    "Q056": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "nist",
+        "incident response",
+        "remediation",
+        "mttd"
+      ],
+      "split": "train"
+    },
+    "Q057": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "passivation",
+        "moisture",
+        "aluminum oxide",
+        "protection"
+      ],
+      "split": "test"
+    },
+    "Q058": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "dvfs",
+        "voltage",
+        "frequency",
+        "power",
+        "inference"
+      ],
+      "split": "val"
+    },
+    "Q059": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "easa",
+        "safety",
+        "drone",
+        "regulations"
+      ],
+      "split": "val"
+    },
+    "Q060": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_36",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_37"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "wilcoxon",
+        "bootstrap",
+        "reproducibility",
+        "non-parametric"
+      ],
+      "split": "val"
+    },
+    "Q061": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "silicon-perovskite",
+        "tandem",
+        "thermalization",
+        "bandgap"
+      ],
+      "split": "val"
+    },
+    "Q062": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "zero-trust",
+        "cryptographic",
+        "micro-authentication",
+        "encryption"
+      ],
+      "split": "train"
+    },
+    "Q063": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "autonomous",
+        "decentralized",
+        "mesh",
+        "swarm"
+      ],
+      "split": "test"
+    },
+    "Q064": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "closed-loop",
+        "recycling",
+        "aluminum",
+        "decarbonization"
+      ],
+      "split": "train"
+    },
+    "Q065": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "consensus",
+        "byzantine",
+        "attestation"
+      ],
+      "split": "test"
+    },
+    "Q066": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "slam",
+        "neural processor",
+        "localization",
+        "mapping"
+      ],
+      "split": "train"
+    },
+    "Q067": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "net-zero",
+        "greenhouse",
+        "scope",
+        "2027",
+        "solar"
+      ],
+      "split": "val"
+    },
+    "Q068": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "post-quantum",
+        "cryptographic",
+        "migration",
+        "kyber",
+        "dilithium"
+      ],
+      "split": "train"
+    },
+    "Q069": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "carbon nanotube",
+        "thermal",
+        "dissipate",
+        "heat"
+      ],
+      "split": "train"
+    },
+    "Q070": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "rust",
+        "microkernel",
+        "capability-based",
+        "isolate"
+      ],
+      "split": "test"
+    },
+    "Q071": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "hydrophobic",
+        "self-cleaning",
+        "dust",
+        "soiling"
+      ],
+      "split": "train"
+    },
+    "Q072": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "governance",
+        "iso 9001",
+        "iso 27001",
+        "compliance"
+      ],
+      "split": "train"
+    },
+    "Q073": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "firmware",
+        "rollback",
+        "ota",
+        "partition"
+      ],
+      "split": "train"
+    },
+    "Q074": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "optical-thermal",
+        "radiometric",
+        "survivors",
+        "reconnaissance"
+      ],
+      "split": "train"
+    },
+    "Q075": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "capital expenditure",
+        "expansion",
+        "munich",
+        "budget"
+      ],
+      "split": "test"
+    },
+    "Q076": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "nist",
+        "incident response",
+        "remediation",
+        "mttd"
+      ],
+      "split": "train"
+    },
+    "Q077": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "passivation",
+        "moisture",
+        "aluminum oxide",
+        "protection"
+      ],
+      "split": "train"
+    },
+    "Q078": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "dvfs",
+        "voltage",
+        "frequency",
+        "power",
+        "inference"
+      ],
+      "split": "train"
+    },
+    "Q079": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "easa",
+        "safety",
+        "drone",
+        "regulations"
+      ],
+      "split": "train"
+    },
+    "Q080": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_36",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_37"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+      "optimal_strategy": "Semantic Retrieval",
+      "expected_keywords": [
+        "wilcoxon",
+        "bootstrap",
+        "reproducibility",
+        "non-parametric"
+      ],
+      "split": "test"
+    },
+    "Q081": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
       ],
       "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
       "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["sustainability", "expansion", "2026", "munich"]
+      "expected_keywords": [
+        "28.4%",
+        "efficiency",
+        "ns-520-qx"
+      ],
+      "split": "train"
     },
-    "Q18": {
+    "Q082": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_10"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_10",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "520 watts",
+        "49.8",
+        "13.45"
+      ],
+      "split": "val"
+    },
+    "Q083": {
       "relevant_chunk_ids": [
         "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
       ],
       "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
       "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["sensor", "optical-thermal", "novaengine v2", "85 km/h"]
+      "expected_keywords": [
+        "$18.4 million",
+        "42.1%",
+        "q3 2025"
+      ],
+      "split": "train"
     },
-    "Q19": {
+    "Q084": {
       "relevant_chunk_ids": [
         "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_5"
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "34.0%",
+        "$6.25 million",
+        "r&d"
+      ],
+      "split": "train"
+    },
+    "Q085": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "85 km/h",
+        "2.15 kg",
+        "ag-400-uav"
+      ],
+      "split": "train"
+    },
+    "Q086": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "6,200 mah",
+        "22.2v",
+        "45 minutes"
+      ],
+      "split": "train"
+    },
+    "Q087": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "32.5 tops",
+        "14.5 watts",
+        "nv-x2"
+      ],
+      "split": "train"
+    },
+    "Q088": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "8.5 milliseconds",
+        "60 fps",
+        "inference"
+      ],
+      "split": "val"
+    },
+    "Q089": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "10.4 gbps",
+        "sub-5",
+        "latency"
+      ],
+      "split": "test"
+    },
+    "Q090": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "0.35%",
+        "30-year",
+        "87.5%"
+      ],
+      "split": "train"
+    },
+    "Q091": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "84%",
+        "renewable",
+        "solar",
+        "wind"
+      ],
+      "split": "test"
+    },
+    "Q092": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "82.5%",
+        "65%",
+        "reduction"
+      ],
+      "split": "train"
+    },
+    "Q093": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "4.2 minutes",
+        "18 minutes",
+        "mttd"
+      ],
+      "split": "test"
+    },
+    "Q094": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "$12.0 million",
+        "2026",
+        "munich"
+      ],
+      "split": "train"
+    },
+    "Q095": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "18.5 w/m-k",
+        "thermal conductivity",
+        "mwcnt"
+      ],
+      "split": "train"
+    },
+    "Q096": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "115\u00b0",
+        "94%",
+        "contact angle"
+      ],
+      "split": "test"
+    },
+    "Q097": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "1.8 microseconds",
+        "interrupt latency",
+        "novaos"
+      ],
+      "split": "train"
+    },
+    "Q098": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "1,420",
+        "58%",
+        "employees"
+      ],
+      "split": "val"
+    },
+    "Q099": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "28.4%",
+        "efficiency",
+        "ns-520-qx"
+      ],
+      "split": "train"
+    },
+    "Q100": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_10"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_10",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "520 watts",
+        "49.8",
+        "13.45"
+      ],
+      "split": "train"
+    },
+    "Q101": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "$18.4 million",
+        "42.1%",
+        "q3 2025"
+      ],
+      "split": "test"
+    },
+    "Q102": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "34.0%",
+        "$6.25 million",
+        "r&d"
+      ],
+      "split": "val"
+    },
+    "Q103": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "85 km/h",
+        "2.15 kg",
+        "ag-400-uav"
+      ],
+      "split": "val"
+    },
+    "Q104": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "6,200 mah",
+        "22.2v",
+        "45 minutes"
+      ],
+      "split": "train"
+    },
+    "Q105": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "32.5 tops",
+        "14.5 watts",
+        "nv-x2"
+      ],
+      "split": "train"
+    },
+    "Q106": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "8.5 milliseconds",
+        "60 fps",
+        "inference"
+      ],
+      "split": "val"
+    },
+    "Q107": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "10.4 gbps",
+        "sub-5",
+        "latency"
+      ],
+      "split": "train"
+    },
+    "Q108": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "0.35%",
+        "30-year",
+        "87.5%"
+      ],
+      "split": "train"
+    },
+    "Q109": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "84%",
+        "renewable",
+        "solar",
+        "wind"
+      ],
+      "split": "train"
+    },
+    "Q110": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "82.5%",
+        "65%",
+        "reduction"
+      ],
+      "split": "test"
+    },
+    "Q111": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "4.2 minutes",
+        "18 minutes",
+        "mttd"
+      ],
+      "split": "train"
+    },
+    "Q112": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "$12.0 million",
+        "2026",
+        "munich"
+      ],
+      "split": "train"
+    },
+    "Q113": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "18.5 w/m-k",
+        "thermal conductivity",
+        "mwcnt"
+      ],
+      "split": "val"
+    },
+    "Q114": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "115\u00b0",
+        "94%",
+        "contact angle"
+      ],
+      "split": "train"
+    },
+    "Q115": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "1.8 microseconds",
+        "interrupt latency",
+        "novaos"
+      ],
+      "split": "test"
+    },
+    "Q116": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "aris vance",
+        "elena rostova",
+        "ceo",
+        "cto"
+      ],
+      "split": "train"
+    },
+    "Q117": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "cambridge",
+        "massachusetts",
+        "400 technology square"
+      ],
+      "split": "val"
+    },
+    "Q118": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "horizon cleantech",
+        "series b",
+        "funding"
+      ],
+      "split": "val"
+    },
+    "Q119": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "tsmc",
+        "7nm",
+        "finfet"
+      ],
+      "split": "val"
+    },
+    "Q120": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "ecdh",
+        "curve25519",
+        "key exchange"
+      ],
+      "split": "test"
+    },
+    "Q121": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "ce mark",
+        "iec 61215",
+        "iec 61730"
+      ],
+      "split": "val"
+    },
+    "Q122": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "kyber-768",
+        "ml-kem",
+        "dilithium-3",
+        "ml-dsa"
+      ],
+      "split": "train"
+    },
+    "Q123": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "peek",
+        "carbon-fiber",
+        "ag-400-uav"
+      ],
+      "split": "train"
+    },
+    "Q124": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "flir boson",
+        "sony imx586",
+        "gimbal"
+      ],
+      "split": "train"
+    },
+    "Q125": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "munich",
+        "germany",
+        "innovation center"
+      ],
+      "split": "train"
+    },
+    "Q126": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "iso 14001",
+        "certification",
+        "environmental"
+      ],
+      "split": "train"
+    },
+    "Q127": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "rust",
+        "microkernel",
+        "memory-safe"
+      ],
+      "split": "train"
+    },
+    "Q128": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34"
       ],
       "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
       "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["45-minute", "85 km/h", "novaengine v2"]
-    },
-    "Q20": {
-      "relevant_chunk_ids": [
-        "NovaTech_Research_Knowledge_Base.pdf_chunk_8"
+      "expected_keywords": [
+        "zstandard",
+        "zstd",
+        "compression"
       ],
-      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+      "split": "train"
+    },
+    "Q129": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
       "optimal_strategy": "Hybrid Retrieval",
-      "expected_keywords": ["aes-256", "sub-5ms", "proof-of-state"]
+      "expected_keywords": [
+        "technical university of munich",
+        "tum",
+        "partnership"
+      ],
+      "split": "train"
+    },
+    "Q130": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "marcus sterling",
+        "naoko takahashi",
+        "cfo"
+      ],
+      "split": "test"
+    },
+    "Q131": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "pos-v2",
+        "consensus"
+      ],
+      "split": "test"
+    },
+    "Q132": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "aluminum oxide",
+        "ald",
+        "passivation"
+      ],
+      "split": "test"
+    },
+    "Q133": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "905 nm",
+        "70-meter",
+        "lidar"
+      ],
+      "split": "train"
+    },
+    "Q134": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "aris vance",
+        "elena rostova",
+        "ceo",
+        "cto"
+      ],
+      "split": "train"
+    },
+    "Q135": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "cambridge",
+        "massachusetts",
+        "400 technology square"
+      ],
+      "split": "train"
+    },
+    "Q136": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "horizon cleantech",
+        "series b",
+        "funding"
+      ],
+      "split": "val"
+    },
+    "Q137": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "tsmc",
+        "7nm",
+        "finfet"
+      ],
+      "split": "train"
+    },
+    "Q138": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "ecdh",
+        "curve25519",
+        "key exchange"
+      ],
+      "split": "train"
+    },
+    "Q139": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "ce mark",
+        "iec 61215",
+        "iec 61730"
+      ],
+      "split": "test"
+    },
+    "Q140": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "kyber-768",
+        "ml-kem",
+        "dilithium-3",
+        "ml-dsa"
+      ],
+      "split": "val"
+    },
+    "Q141": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "peek",
+        "carbon-fiber",
+        "ag-400-uav"
+      ],
+      "split": "test"
+    },
+    "Q142": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "flir boson",
+        "sony imx586",
+        "gimbal"
+      ],
+      "split": "train"
+    },
+    "Q143": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "munich",
+        "germany",
+        "innovation center"
+      ],
+      "split": "test"
+    },
+    "Q144": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "iso 14001",
+        "certification",
+        "environmental"
+      ],
+      "split": "train"
+    },
+    "Q145": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "rust",
+        "microkernel",
+        "memory-safe"
+      ],
+      "split": "train"
+    },
+    "Q146": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "zstandard",
+        "zstd",
+        "compression"
+      ],
+      "split": "val"
+    },
+    "Q147": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "technical university of munich",
+        "tum",
+        "partnership"
+      ],
+      "split": "train"
+    },
+    "Q148": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "marcus sterling",
+        "naoko takahashi",
+        "cfo"
+      ],
+      "split": "train"
+    },
+    "Q149": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "pos-v2",
+        "consensus"
+      ],
+      "split": "train"
+    },
+    "Q150": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+      "optimal_strategy": "Hybrid Retrieval",
+      "expected_keywords": [
+        "aluminum oxide",
+        "ald",
+        "passivation"
+      ],
+      "split": "train"
+    },
+    "Q151": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "novasolar-x",
+        "aeroguide",
+        "photovoltaic",
+        "uav"
+      ],
+      "split": "test"
+    },
+    "Q152": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "throughput",
+        "latency",
+        "novasync",
+        "protocols"
+      ],
+      "split": "train"
+    },
+    "Q153": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "mwcnt",
+        "silicone",
+        "thermal conductivity",
+        "18.5"
+      ],
+      "split": "train"
+    },
+    "Q154": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "bandgap",
+        "1.68 ev",
+        "1.12 ev",
+        "perovskite",
+        "silicon"
+      ],
+      "split": "val"
+    },
+    "Q155": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "28.4%",
+        "commercial",
+        "efficiency",
+        "tandem"
+      ],
+      "split": "train"
+    },
+    "Q156": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "slam",
+        "edge",
+        "cloud",
+        "latency"
+      ],
+      "split": "test"
+    },
+    "Q157": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "scope 1",
+        "scope 2",
+        "scope 3",
+        "net-zero"
+      ],
+      "split": "val"
+    },
+    "Q158": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "aes-256",
+        "kyber-768",
+        "dilithium-3",
+        "post-quantum"
+      ],
+      "split": "train"
+    },
+    "Q159": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "rust",
+        "monolithic",
+        "interrupt latency",
+        "microkernel"
+      ],
+      "split": "test"
+    },
+    "Q160": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "hydrophobic",
+        "94%",
+        "dust",
+        "washing"
+      ],
+      "split": "val"
+    },
+    "Q161": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "series b",
+        "$45.0",
+        "$12.0",
+        "capital expenditure"
+      ],
+      "split": "train"
+    },
+    "Q162": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "proof-of-work",
+        "byzantine",
+        "consensus"
+      ],
+      "split": "train"
+    },
+    "Q163": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "nv-x2",
+        "power",
+        "tops",
+        "gpu"
+      ],
+      "split": "train"
+    },
+    "Q164": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "novasolar-x",
+        "aeroguide",
+        "photovoltaic",
+        "uav"
+      ],
+      "split": "train"
+    },
+    "Q165": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "throughput",
+        "latency",
+        "novasync",
+        "protocols"
+      ],
+      "split": "test"
+    },
+    "Q166": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "mwcnt",
+        "silicone",
+        "thermal conductivity",
+        "18.5"
+      ],
+      "split": "train"
+    },
+    "Q167": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "bandgap",
+        "1.68 ev",
+        "1.12 ev",
+        "perovskite",
+        "silicon"
+      ],
+      "split": "test"
+    },
+    "Q168": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "28.4%",
+        "commercial",
+        "efficiency",
+        "tandem"
+      ],
+      "split": "train"
+    },
+    "Q169": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "slam",
+        "edge",
+        "cloud",
+        "latency"
+      ],
+      "split": "train"
+    },
+    "Q170": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "scope 1",
+        "scope 2",
+        "scope 3",
+        "net-zero"
+      ],
+      "split": "train"
+    },
+    "Q171": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "aes-256",
+        "kyber-768",
+        "dilithium-3",
+        "post-quantum"
+      ],
+      "split": "val"
+    },
+    "Q172": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "rust",
+        "monolithic",
+        "interrupt latency",
+        "microkernel"
+      ],
+      "split": "train"
+    },
+    "Q173": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "hydrophobic",
+        "94%",
+        "dust",
+        "washing"
+      ],
+      "split": "train"
+    },
+    "Q174": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "series b",
+        "$45.0",
+        "$12.0",
+        "capital expenditure"
+      ],
+      "split": "train"
+    },
+    "Q175": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "proof-of-state",
+        "proof-of-work",
+        "byzantine",
+        "consensus"
+      ],
+      "split": "val"
+    },
+    "Q176": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "battery",
+        "85 km/h",
+        "sensor",
+        "nv-x2"
+      ],
+      "split": "train"
+    },
+    "Q177": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "sustainability",
+        "q3 2025",
+        "expansion",
+        "munich"
+      ],
+      "split": "test"
+    },
+    "Q178": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "aes-256-gcm",
+        "sub-5ms",
+        "proof-of-state",
+        "pos-v2"
+      ],
+      "split": "test"
+    },
+    "Q179": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_10",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "520 watts",
+        "30-year",
+        "0.35%",
+        "-0.28%/\u00b0c"
+      ],
+      "split": "train"
+    },
+    "Q180": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "aris vance",
+        "elena rostova",
+        "cambridge",
+        "$45.0 million",
+        "horizon"
+      ],
+      "split": "val"
+    },
+    "Q181": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "32.5 tops",
+        "102.4 gb/s",
+        "14.5 watts",
+        "novaos"
+      ],
+      "split": "train"
+    },
+    "Q182": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "mttd",
+        "mttr",
+        "kyber-768",
+        "dilithium-3"
+      ],
+      "split": "train"
+    },
+    "Q183": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "82.5%",
+        "recycled aluminum",
+        "net-zero",
+        "2027"
+      ],
+      "split": "test"
+    },
+    "Q184": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "ce mark",
+        "easa",
+        "sts-01",
+        "munich"
+      ],
+      "split": "train"
+    },
+    "Q185": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "mwcnt",
+        "hydrophobic",
+        "thermal",
+        "dust"
+      ],
+      "split": "train"
+    },
+    "Q186": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "ota",
+        "a/b",
+        "ed25519",
+        "dilithium-3",
+        "novaos"
+      ],
+      "split": "train"
+    },
+    "Q187": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_36",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_37"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "wilcoxon",
+        "bootstrap",
+        "k=3",
+        "ndcg@3"
+      ],
+      "split": "train"
+    },
+    "Q188": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "founders",
+        "tum",
+        "munich",
+        "expansion"
+      ],
+      "split": "train"
+    },
+    "Q189": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_14",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_13",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "battery",
+        "85 km/h",
+        "sensor",
+        "nv-x2"
+      ],
+      "split": "train"
+    },
+    "Q190": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "sustainability",
+        "q3 2025",
+        "expansion",
+        "munich"
+      ],
+      "split": "train"
+    },
+    "Q191": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_21",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "aes-256-gcm",
+        "sub-5ms",
+        "proof-of-state",
+        "pos-v2"
+      ],
+      "split": "val"
+    },
+    "Q192": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_8",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_9",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_10",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_11",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_12"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_7",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "520 watts",
+        "30-year",
+        "0.35%",
+        "-0.28%/\u00b0c"
+      ],
+      "split": "val"
+    },
+    "Q193": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_2",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_4",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_6"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_1",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "aris vance",
+        "elena rostova",
+        "cambridge",
+        "$45.0 million",
+        "horizon"
+      ],
+      "split": "val"
+    },
+    "Q194": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_16",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_17",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_15",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "32.5 tops",
+        "102.4 gb/s",
+        "14.5 watts",
+        "novaos"
+      ],
+      "split": "test"
+    },
+    "Q195": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_26",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_27",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_25",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "mttd",
+        "mttr",
+        "kyber-768",
+        "dilithium-3"
+      ],
+      "split": "train"
+    },
+    "Q196": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_24",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_22",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_23"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_23",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "82.5%",
+        "recycled aluminum",
+        "net-zero",
+        "2027"
+      ],
+      "split": "val"
+    },
+    "Q197": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_29"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_28",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "ce mark",
+        "easa",
+        "sts-01",
+        "munich"
+      ],
+      "split": "test"
+    },
+    "Q198": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_31",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_32",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_30",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "mwcnt",
+        "hydrophobic",
+        "thermal",
+        "dust"
+      ],
+      "split": "train"
+    },
+    "Q199": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_20",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_34",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_18",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_19",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_33"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_5",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "ota",
+        "a/b",
+        "ed25519",
+        "dilithium-3",
+        "novaos"
+      ],
+      "split": "train"
+    },
+    "Q200": {
+      "relevant_chunk_ids": [
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_36",
+        "NovaTech_Research_Knowledge_Base.pdf_chunk_37"
+      ],
+      "primary_chunk_id": "NovaTech_Research_Knowledge_Base.pdf_chunk_35",
+      "optimal_strategy": "RRF Retrieval",
+      "expected_keywords": [
+        "wilcoxon",
+        "bootstrap",
+        "k=3",
+        "ndcg@3"
+      ],
+      "split": "train"
     }
   }
 }

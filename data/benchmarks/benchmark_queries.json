@@ -1,122 +1,1402 @@
 [
   {
-    "query_id": "Q01",
-    "query": "NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State",
+    "query_id": "Q001",
+    "query": "NovaSync v3.2 AES-256-GCM Curve25519 Ed25519 zero-trust",
     "category": "keyword-heavy",
-    "description": "Exact technical specifications and protocol terms for NovaSync v3.2"
+    "description": "Technical exact spec keyword lookup",
+    "split": "val"
   },
   {
-    "query_id": "Q02",
-    "query": "NovaSolar-X 24.5% efficiency 25-year warranty silicon-perovskite",
+    "query_id": "Q002",
+    "query": "Model NS-520-QX 28.4% efficiency tandem silicon-perovskite STC 520W",
     "category": "keyword-heavy",
-    "description": "Exact model terms and ratings for solar panel"
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
   },
   {
-    "query_id": "Q03",
-    "query": "Project AeroGuide 85 km/h NovaEngine v2 dual optical-thermal",
+    "query_id": "Q003",
+    "query": "Project AeroGuide AG-400-UAV PEEK airframe NV-2207 85 km/h",
     "category": "keyword-heavy",
-    "description": "Exact drone swarm hardware and speed model numbers"
+    "description": "Technical exact spec keyword lookup",
+    "split": "val"
   },
   {
-    "query_id": "Q04",
-    "query": "How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?",
+    "query_id": "Q004",
+    "query": "NV-X2 TSMC 7nm FinFET Cortex-A78AE 32.5 TOPS LPDDR5 14.5W",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q005",
+    "query": "Proof-of-State PoS-v2 10.4 Gbps sub-5ms Byzantine Fault Tolerance",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q006",
+    "query": "Voc 49.8V Isc 13.45A temperature coefficient -0.28%/\u00b0C STC",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q007",
+    "query": "FLIR Boson 640x512 microbolometer Sony IMX586 48 MP micro-LiDAR 905nm",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q008",
+    "query": "ML-KEM Kyber-768 ML-DSA Dilithium-3 FIPS 140-3 Level 4 HSM",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q009",
+    "query": "MWCNT carbon nanotube TIM 18.5 W/m-K thermal interface NV-X2",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q010",
+    "query": "NovaOS Rust microkernel 1.8 microseconds interrupt latency RTOS",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q011",
+    "query": "30-Year Performance Guarantee ALD aluminum oxide 0.35% degradation",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q012",
+    "query": "Munich Innovation Center CE Mark IEC 61215 EASA STS-01",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q013",
+    "query": "ISO 14001 Scope 1 Scope 2 Scope 3 net-zero 2027",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q014",
+    "query": "reverse-osmosis deionization 82.5% freshwater 65% embodied carbon",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q015",
+    "query": "NIST CSF 2.0 SOC 2 Type II MTTD 4.2 minutes MTTR 18 minutes",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q016",
+    "query": "Zstandard zstd level 19 OTA dual A/B partition rollback Ed25519",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q017",
+    "query": "hydrophobic contact angle 115\u00b0 micro-grooved 94% dust 12% soiling",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q018",
+    "query": "Cambridge Massachusetts 400 Technology Square Series B $45.0M",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q019",
+    "query": "Series B Horizon CleanTech Apex Robotics Nordic Technology $72.5M",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q020",
+    "query": "YOLO-v9 8.5ms SLAM 60 fps 4K video tensor processing unit",
+    "category": "keyword-heavy",
+    "description": "Technical exact spec keyword lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q021",
+    "query": "Exact specification lookup: NovaSync v3.2 AES-256-GCM Curve25519 Ed25519 zero-trust",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q022",
+    "query": "Exact specification lookup: Model NS-520-QX 28.4% efficiency tandem silicon-perovskite STC 520W",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q023",
+    "query": "Exact specification lookup: Project AeroGuide AG-400-UAV PEEK airframe NV-2207 85 km/h",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q024",
+    "query": "Exact specification lookup: NV-X2 TSMC 7nm FinFET Cortex-A78AE 32.5 TOPS LPDDR5 14.5W",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q025",
+    "query": "Exact specification lookup: Proof-of-State PoS-v2 10.4 Gbps sub-5ms Byzantine Fault Tolerance",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q026",
+    "query": "Exact specification lookup: Voc 49.8V Isc 13.45A temperature coefficient -0.28%/\u00b0C STC",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q027",
+    "query": "Exact specification lookup: FLIR Boson 640x512 microbolometer Sony IMX586 48 MP micro-LiDAR 905nm",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q028",
+    "query": "Exact specification lookup: ML-KEM Kyber-768 ML-DSA Dilithium-3 FIPS 140-3 Level 4 HSM",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q029",
+    "query": "Exact specification lookup: MWCNT carbon nanotube TIM 18.5 W/m-K thermal interface NV-X2",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q030",
+    "query": "Exact specification lookup: NovaOS Rust microkernel 1.8 microseconds interrupt latency RTOS",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q031",
+    "query": "Exact specification lookup: 30-Year Performance Guarantee ALD aluminum oxide 0.35% degradation",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q032",
+    "query": "Exact specification lookup: Munich Innovation Center CE Mark IEC 61215 EASA STS-01",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q033",
+    "query": "Exact specification lookup: ISO 14001 Scope 1 Scope 2 Scope 3 net-zero 2027",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q034",
+    "query": "Exact specification lookup: reverse-osmosis deionization 82.5% freshwater 65% embodied carbon",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q035",
+    "query": "Exact specification lookup: NIST CSF 2.0 SOC 2 Type II MTTD 4.2 minutes MTTR 18 minutes",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q036",
+    "query": "Exact specification lookup: Zstandard zstd level 19 OTA dual A/B partition rollback Ed25519",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q037",
+    "query": "Exact specification lookup: hydrophobic contact angle 115\u00b0 micro-grooved 94% dust 12% soiling",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q038",
+    "query": "Exact specification lookup: Cambridge Massachusetts 400 Technology Square Series B $45.0M",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q039",
+    "query": "Exact specification lookup: Series B Horizon CleanTech Apex Robotics Nordic Technology $72.5M",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q040",
+    "query": "Exact specification lookup: YOLO-v9 8.5ms SLAM 60 fps 4K video tensor processing unit",
+    "category": "keyword-heavy",
+    "description": "Specification verification query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q041",
+    "query": "How does the monolithic silicon-perovskite tandem design reduce thermalization energy losses?",
     "category": "semantic",
-    "description": "Conceptual explanation of environmental and sustainability practices"
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
   },
   {
-    "query_id": "Q05",
-    "query": "Explain the architectural mechanism used by NovaSync to achieve zero-trust security across distributed nodes.",
+    "query_id": "Q042",
+    "query": "Explain the cryptographic mechanism by which NovaSync enforces zero-trust communication across distributed edge nodes.",
     "category": "semantic",
-    "description": "Conceptual breakdown of distributed security protocol"
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
   },
   {
-    "query_id": "Q06",
-    "query": "Describe the operational design and mission capabilities of the autonomous drone swarm system.",
+    "query_id": "Q043",
+    "query": "Describe how decentralized peer-to-peer drone swarms coordinate autonomous search and rescue missions without cloud servers.",
     "category": "semantic",
-    "description": "Conceptual summary of drone swarm autonomous capabilities"
+    "description": "Conceptual semantic inquiry",
+    "split": "test"
   },
   {
-    "query_id": "Q07",
-    "query": "What is the warranty period and photovoltaic energy efficiency rating of the NovaSolar-X solar panel?",
-    "category": "factual",
-    "description": "Factual lookup for solar product warranty and efficiency"
+    "query_id": "Q044",
+    "query": "In what ways do NovaTech's closed-loop water deionization and recycled aluminum extrusions support industrial decarbonization?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
   },
   {
-    "query_id": "Q08",
-    "query": "Where is NovaTech enterprise headquartered and who founded the research institute?",
-    "category": "factual",
-    "description": "Factual corporate background lookup"
+    "query_id": "Q045",
+    "query": "Explain the functioning of Proof-of-State consensus in achieving Byzantine Fault Tolerance in edge networks.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
   },
   {
-    "query_id": "Q09",
-    "query": "What battery flight duration is specified for the Project AeroGuide drone system?",
-    "category": "factual",
-    "description": "Factual specification lookup for drone battery life"
+    "query_id": "Q046",
+    "query": "How does the NV-X2 neural processor execute real-time simultaneous localization and mapping on autonomous UAVs?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "val"
   },
   {
-    "query_id": "Q10",
-    "query": "What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?",
+    "query_id": "Q047",
+    "query": "What environmental strategies enable NovaTech to target net-zero greenhouse gas emissions by 2027?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q048",
+    "query": "Describe the post-quantum cryptographic migration strategy being implemented across server nodes.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q049",
+    "query": "How does the carbon nanotube thermal interface material dissipate heat from high-performance edge compute modules?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q050",
+    "query": "Explain how the memory-safe Rust microkernel in NovaOS isolates device drivers from core operating system logic.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q051",
+    "query": "Describe the self-cleaning mechanism of hydrophobic coatings in mitigating photovoltaic desert dust soiling.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q052",
+    "query": "How does NovaTech maintain corporate quality standards and information security through international compliance certifications?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q053",
+    "query": "Explain the automated firmware rollback architecture used to prevent bricking during over-the-air updates.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q054",
+    "query": "In what manner does the dual-spectrum optical and thermal imaging system detect survivors in wilderness reconnaissance?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q055",
+    "query": "Explain the capital expenditure planning supporting NovaTech's upcoming European robotics expansion.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q056",
+    "query": "How do NIST CSF 2.0 frameworks guide incident response and threat remediation workflows?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q057",
+    "query": "Describe the physical architecture that protects NovaSolar-X tandem cells against atmospheric moisture ingress.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q058",
+    "query": "How does dynamic voltage and frequency scaling minimize electrical draw in edge tensor processing units?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q059",
+    "query": "Explain how collaborative swarm robotics operate under standard European EASA aviation safety categories.",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q060",
+    "query": "What role does non-parametric Wilcoxon testing play in ensuring rigorous RAG evaluation benchmarks?",
+    "category": "semantic",
+    "description": "Conceptual semantic inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q061",
+    "query": "Can you elaborate on: How does the monolithic silicon-perovskite tandem design reduce thermalization energy losses?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q062",
+    "query": "Can you elaborate on: Explain the cryptographic mechanism by which NovaSync enforces zero-trust communication across distributed edge nodes.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q063",
+    "query": "Can you elaborate on: Describe how decentralized peer-to-peer drone swarms coordinate autonomous search and rescue missions without cloud servers.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q064",
+    "query": "Can you elaborate on: In what ways do NovaTech's closed-loop water deionization and recycled aluminum extrusions support industrial decarbonization?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q065",
+    "query": "Can you elaborate on: Explain the functioning of Proof-of-State consensus in achieving Byzantine Fault Tolerance in edge networks.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q066",
+    "query": "Can you elaborate on: How does the NV-X2 neural processor execute real-time simultaneous localization and mapping on autonomous UAVs?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q067",
+    "query": "Can you elaborate on: What environmental strategies enable NovaTech to target net-zero greenhouse gas emissions by 2027?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q068",
+    "query": "Can you elaborate on: Describe the post-quantum cryptographic migration strategy being implemented across server nodes.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q069",
+    "query": "Can you elaborate on: How does the carbon nanotube thermal interface material dissipate heat from high-performance edge compute modules?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q070",
+    "query": "Can you elaborate on: Explain how the memory-safe Rust microkernel in NovaOS isolates device drivers from core operating system logic.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q071",
+    "query": "Can you elaborate on: Describe the self-cleaning mechanism of hydrophobic coatings in mitigating photovoltaic desert dust soiling.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q072",
+    "query": "Can you elaborate on: How does NovaTech maintain corporate quality standards and information security through international compliance certifications?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q073",
+    "query": "Can you elaborate on: Explain the automated firmware rollback architecture used to prevent bricking during over-the-air updates.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q074",
+    "query": "Can you elaborate on: In what manner does the dual-spectrum optical and thermal imaging system detect survivors in wilderness reconnaissance?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q075",
+    "query": "Can you elaborate on: Explain the capital expenditure planning supporting NovaTech's upcoming European robotics expansion.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q076",
+    "query": "Can you elaborate on: How do NIST CSF 2.0 frameworks guide incident response and threat remediation workflows?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q077",
+    "query": "Can you elaborate on: Describe the physical architecture that protects NovaSolar-X tandem cells against atmospheric moisture ingress.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q078",
+    "query": "Can you elaborate on: How does dynamic voltage and frequency scaling minimize electrical draw in edge tensor processing units?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q079",
+    "query": "Can you elaborate on: Explain how collaborative swarm robotics operate under standard European EASA aviation safety categories.",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q080",
+    "query": "Can you elaborate on: What role does non-parametric Wilcoxon testing play in ensuring rigorous RAG evaluation benchmarks?",
+    "category": "semantic",
+    "description": "Conceptual elaboration inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q081",
+    "query": "What is the peak energy conversion efficiency percentage of the NovaSolar-X Model NS-520-QX panel?",
     "category": "numerical",
-    "description": "Numerical financial figures lookup"
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
   },
   {
-    "query_id": "Q11",
-    "query": "What is the maximum throughput in Gbps and network node scaling limit supported by NovaSync?",
+    "query_id": "Q082",
+    "query": "What are the peak power output in Watts, Voc in Volts, and short-circuit current in Amperes for Model NS-520-QX?",
     "category": "numerical",
-    "description": "Numerical metrics for network speed and node count"
+    "description": "Quantitative numerical figure lookup",
+    "split": "val"
   },
   {
-    "query_id": "Q12",
-    "query": "What is the European expansion capital fund amount and the target year for the Munich innovation hub?",
+    "query_id": "Q083",
+    "query": "What were the Q3 2025 quarterly revenue and year-over-year revenue growth percentage?",
     "category": "numerical",
-    "description": "Numerical figures for expansion fund and target milestone year"
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
   },
   {
-    "query_id": "Q13",
-    "query": "Who are the CEO and CTO of NovaTech enterprise?",
-    "category": "entity-focused",
-    "description": "Entity extraction for executive leadership names"
+    "query_id": "Q084",
+    "query": "What percentage of gross revenue does NovaTech allocate to foundational R&D, and what was the Q3 dollar amount?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
   },
   {
-    "query_id": "Q14",
-    "query": "Which research division developed the NovaEngine v2 neural edge processor and where is it tested?",
-    "category": "entity-focused",
-    "description": "Entity extraction for product division and processor name"
+    "query_id": "Q085",
+    "query": "What is the maximum sprint speed in km/h and all-up takeoff weight in kg for the AG-400-UAV drone?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
   },
   {
-    "query_id": "Q15",
-    "query": "Compare the operational characteristics of the NovaSolar-X solar panel with the AeroGuide drone swarm system.",
+    "query_id": "Q086",
+    "query": "What battery capacity in mAh, nominal voltage, and active flight duration in minutes are specified for AeroGuide?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q087",
+    "query": "What deep learning inference TOPS and peak power consumption in Watts are rated for the NV-X2 processor?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q088",
+    "query": "What is the end-to-end YOLO-v9 inference latency in milliseconds and video frame rate on the NV-X2?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q089",
+    "query": "What network throughput in Gbps and packet delivery latency in milliseconds does NovaSync v3.2 achieve?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q090",
+    "query": "What is the annual power degradation rate percentage and warranty performance guarantee period for NovaSolar-X?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q091",
+    "query": "What percentage of electrical energy across fabrication facilities comes from renewable solar and wind?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q092",
+    "query": "What freshwater reduction percentage and embodied carbon reduction percentage have been achieved through recycling?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q093",
+    "query": "What are the Mean Time to Detect (MTTD) and Mean Time to Remediate (MTTR) in minutes for cybersecurity threats?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q094",
+    "query": "What is the capital expenditure budget in millions of dollars allocated for the 2026 European expansion?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q095",
+    "query": "What thermal conductivity in W/m-K does the multi-walled carbon nanotube thermal interface material reach?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q096",
+    "query": "What is the hydrophobic water contact angle in degrees, and what percentage of desert dust is removed?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q097",
+    "query": "What is the worst-case interrupt latency in microseconds guaranteed by the NovaOS real-time operating system?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q098",
+    "query": "How many full-time research scientists and engineers does NovaTech employ, and what percentage hold advanced degrees?",
+    "category": "numerical",
+    "description": "Quantitative numerical figure lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q099",
+    "query": "State the exact numerical figure: What is the peak energy conversion efficiency percentage of the NovaSolar-X Model NS-520-QX panel?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q100",
+    "query": "State the exact numerical figure: What are the peak power output in Watts, Voc in Volts, and short-circuit current in Amperes for Model NS-520-QX?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q101",
+    "query": "State the exact numerical figure: What were the Q3 2025 quarterly revenue and year-over-year revenue growth percentage?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q102",
+    "query": "State the exact numerical figure: What percentage of gross revenue does NovaTech allocate to foundational R&D, and what was the Q3 dollar amount?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q103",
+    "query": "State the exact numerical figure: What is the maximum sprint speed in km/h and all-up takeoff weight in kg for the AG-400-UAV drone?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q104",
+    "query": "State the exact numerical figure: What battery capacity in mAh, nominal voltage, and active flight duration in minutes are specified for AeroGuide?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q105",
+    "query": "State the exact numerical figure: What deep learning inference TOPS and peak power consumption in Watts are rated for the NV-X2 processor?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q106",
+    "query": "State the exact numerical figure: What is the end-to-end YOLO-v9 inference latency in milliseconds and video frame rate on the NV-X2?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q107",
+    "query": "State the exact numerical figure: What network throughput in Gbps and packet delivery latency in milliseconds does NovaSync v3.2 achieve?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q108",
+    "query": "State the exact numerical figure: What is the annual power degradation rate percentage and warranty performance guarantee period for NovaSolar-X?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q109",
+    "query": "State the exact numerical figure: What percentage of electrical energy across fabrication facilities comes from renewable solar and wind?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q110",
+    "query": "State the exact numerical figure: What freshwater reduction percentage and embodied carbon reduction percentage have been achieved through recycling?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q111",
+    "query": "State the exact numerical figure: What are the Mean Time to Detect (MTTD) and Mean Time to Remediate (MTTR) in minutes for cybersecurity threats?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q112",
+    "query": "State the exact numerical figure: What is the capital expenditure budget in millions of dollars allocated for the 2026 European expansion?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q113",
+    "query": "State the exact numerical figure: What thermal conductivity in W/m-K does the multi-walled carbon nanotube thermal interface material reach?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q114",
+    "query": "State the exact numerical figure: What is the hydrophobic water contact angle in degrees, and what percentage of desert dust is removed?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q115",
+    "query": "State the exact numerical figure: What is the worst-case interrupt latency in microseconds guaranteed by the NovaOS real-time operating system?",
+    "category": "numerical",
+    "description": "Quantitative numerical specification lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q116",
+    "query": "Who are the Chief Executive Officer and Chief Technology Officer of NovaTech Applied Intelligence Labs?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q117",
+    "query": "Where is NovaTech corporate headquarters located, and what is its specific street address?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q118",
+    "query": "Which clean-tech venture capital fund led NovaTech's $45.0 million Series B funding round?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q119",
+    "query": "What semiconductor manufacturing process node and foundry are utilized to fabricate the NV-X2 processor?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q120",
+    "query": "Which cryptographic algorithm and curve does NovaSync v3.2 employ for inter-node key exchange?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q121",
+    "query": "What international electrical safety and CE Mark certifications have been obtained for NovaSolar-X modules?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "val"
+  },
+  {
+    "query_id": "Q122",
+    "query": "Which post-quantum key establishment and digital signature algorithms are standardized in NovaTech hardware?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q123",
+    "query": "What carbon-fiber composite material is used to construct the airframe chassis of the AG-400-UAV drone?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q124",
+    "query": "What thermal and optical sensors are mounted on the dual-spectrum gimbal of the AeroGuide UAV?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q125",
+    "query": "In what German city will the new Applied Robotics Innovation Center be located?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q126",
+    "query": "What environmental management standard certifies NovaTech's zero-carbon manufacturing facilities?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q127",
+    "query": "What programming language provides memory safety for the microkernel in NovaOS?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q128",
+    "query": "What compression algorithm is used to compress over-the-air firmware update payloads?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q129",
+    "query": "Which German university has partnered with NovaTech for collaborative research in swarm intelligence?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q130",
+    "query": "Who serves as the Chief Financial Officer and Vice President of Advanced Hardware Systems?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q131",
+    "query": "What consensus protocol does NovaSync use to replace compute-heavy proof-of-work in edge clusters?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q132",
+    "query": "What material is deposited via atomic layer deposition to prevent moisture ingress in solar tandem cells?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "test"
+  },
+  {
+    "query_id": "Q133",
+    "query": "What is the nominal wavelength and operational range of the micro-LiDAR module on the AeroGuide drone?",
+    "category": "factual",
+    "description": "Factual entity and specification lookup",
+    "split": "train"
+  },
+  {
+    "query_id": "Q134",
+    "query": "Fact check: Who are the Chief Executive Officer and Chief Technology Officer of NovaTech Applied Intelligence Labs?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q135",
+    "query": "Fact check: Where is NovaTech corporate headquarters located, and what is its specific street address?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q136",
+    "query": "Fact check: Which clean-tech venture capital fund led NovaTech's $45.0 million Series B funding round?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "val"
+  },
+  {
+    "query_id": "Q137",
+    "query": "Fact check: What semiconductor manufacturing process node and foundry are utilized to fabricate the NV-X2 processor?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q138",
+    "query": "Fact check: Which cryptographic algorithm and curve does NovaSync v3.2 employ for inter-node key exchange?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q139",
+    "query": "Fact check: What international electrical safety and CE Mark certifications have been obtained for NovaSolar-X modules?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "test"
+  },
+  {
+    "query_id": "Q140",
+    "query": "Fact check: Which post-quantum key establishment and digital signature algorithms are standardized in NovaTech hardware?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "val"
+  },
+  {
+    "query_id": "Q141",
+    "query": "Fact check: What carbon-fiber composite material is used to construct the airframe chassis of the AG-400-UAV drone?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "test"
+  },
+  {
+    "query_id": "Q142",
+    "query": "Fact check: What thermal and optical sensors are mounted on the dual-spectrum gimbal of the AeroGuide UAV?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q143",
+    "query": "Fact check: In what German city will the new Applied Robotics Innovation Center be located?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "test"
+  },
+  {
+    "query_id": "Q144",
+    "query": "Fact check: What environmental management standard certifies NovaTech's zero-carbon manufacturing facilities?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q145",
+    "query": "Fact check: What programming language provides memory safety for the microkernel in NovaOS?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q146",
+    "query": "Fact check: What compression algorithm is used to compress over-the-air firmware update payloads?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "val"
+  },
+  {
+    "query_id": "Q147",
+    "query": "Fact check: Which German university has partnered with NovaTech for collaborative research in swarm intelligence?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q148",
+    "query": "Fact check: Who serves as the Chief Financial Officer and Vice President of Advanced Hardware Systems?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q149",
+    "query": "Fact check: What consensus protocol does NovaSync use to replace compute-heavy proof-of-work in edge clusters?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q150",
+    "query": "Fact check: What material is deposited via atomic layer deposition to prevent moisture ingress in solar tandem cells?",
+    "category": "factual",
+    "description": "Factual specification check",
+    "split": "train"
+  },
+  {
+    "query_id": "Q151",
+    "query": "Compare the operational purpose and technical architecture of the NovaSolar-X module with the AeroGuide UAV.",
     "category": "comparison",
-    "description": "Cross-domain product operational comparison"
+    "description": "Comparative technology analysis",
+    "split": "test"
   },
   {
-    "query_id": "Q16",
-    "query": "Compare the bandwidth throughput of NovaSync v3.2 with legacy enterprise IoT protocols.",
+    "query_id": "Q152",
+    "query": "Compare the bandwidth throughput and latency of NovaSync v3.2 with conventional IoT cloud communication protocols.",
     "category": "comparison",
-    "description": "Comparative analysis of network protocol throughput"
+    "description": "Comparative technology analysis",
+    "split": "train"
   },
   {
-    "query_id": "Q17",
-    "query": "How do NovaTech's sustainability goals align with its financial investments and upcoming 2026 European expansion milestones?",
+    "query_id": "Q153",
+    "query": "Contrast the thermal performance of multi-walled carbon nanotube TIM with conventional silicone thermal grease.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "train"
+  },
+  {
+    "query_id": "Q154",
+    "query": "Compare the energy absorption bandgaps of the perovskite top cell versus the bottom silicon heterojunction wafer.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "val"
+  },
+  {
+    "query_id": "Q155",
+    "query": "Compare the energy efficiency of the NovaSolar-X 28.4% panel with standard commercial solar panel efficiencies.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "train"
+  },
+  {
+    "query_id": "Q156",
+    "query": "Contrast the computational latency of edge-based SLAM on the NV-X2 with cloud-tethered robotic processing.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "test"
+  },
+  {
+    "query_id": "Q157",
+    "query": "Compare Scope 1, Scope 2, and Scope 3 emissions targets outlined in NovaTech's 2027 net-zero framework.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "val"
+  },
+  {
+    "query_id": "Q158",
+    "query": "Compare the security guarantees of classical AES-256-GCM with post-quantum Kyber-768 and Dilithium-3.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "train"
+  },
+  {
+    "query_id": "Q159",
+    "query": "Contrast the interrupt latency and safety of NovaOS Rust microkernel against standard monolithic Linux kernels.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "test"
+  },
+  {
+    "query_id": "Q160",
+    "query": "Compare the dust mitigation capability of hydrophobic nanocoatings with manual solar panel washing cycles.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "val"
+  },
+  {
+    "query_id": "Q161",
+    "query": "Compare the financial capital invested in Series B equity versus the upcoming Munich capital expenditure budget.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "train"
+  },
+  {
+    "query_id": "Q162",
+    "query": "Contrast Proof-of-State Byzantine consensus with traditional proof-of-work blockchain algorithms.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "train"
+  },
+  {
+    "query_id": "Q163",
+    "query": "Compare the power consumption and TOPS of the NV-X2 processor with traditional desktop GPUs.",
+    "category": "comparison",
+    "description": "Comparative technology analysis",
+    "split": "train"
+  },
+  {
+    "query_id": "Q164",
+    "query": "Provide a detailed technical comparison: Compare the operational purpose and technical architecture of the NovaSolar-X module with the AeroGuide UAV.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q165",
+    "query": "Provide a detailed technical comparison: Compare the bandwidth throughput and latency of NovaSync v3.2 with conventional IoT cloud communication protocols.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "test"
+  },
+  {
+    "query_id": "Q166",
+    "query": "Provide a detailed technical comparison: Contrast the thermal performance of multi-walled carbon nanotube TIM with conventional silicone thermal grease.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q167",
+    "query": "Provide a detailed technical comparison: Compare the energy absorption bandgaps of the perovskite top cell versus the bottom silicon heterojunction wafer.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "test"
+  },
+  {
+    "query_id": "Q168",
+    "query": "Provide a detailed technical comparison: Compare the energy efficiency of the NovaSolar-X 28.4% panel with standard commercial solar panel efficiencies.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q169",
+    "query": "Provide a detailed technical comparison: Contrast the computational latency of edge-based SLAM on the NV-X2 with cloud-tethered robotic processing.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q170",
+    "query": "Provide a detailed technical comparison: Compare Scope 1, Scope 2, and Scope 3 emissions targets outlined in NovaTech's 2027 net-zero framework.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q171",
+    "query": "Provide a detailed technical comparison: Compare the security guarantees of classical AES-256-GCM with post-quantum Kyber-768 and Dilithium-3.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q172",
+    "query": "Provide a detailed technical comparison: Contrast the interrupt latency and safety of NovaOS Rust microkernel against standard monolithic Linux kernels.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q173",
+    "query": "Provide a detailed technical comparison: Compare the dust mitigation capability of hydrophobic nanocoatings with manual solar panel washing cycles.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q174",
+    "query": "Provide a detailed technical comparison: Compare the financial capital invested in Series B equity versus the upcoming Munich capital expenditure budget.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q175",
+    "query": "Provide a detailed technical comparison: Contrast Proof-of-State Byzantine consensus with traditional proof-of-work blockchain algorithms.",
+    "category": "comparison",
+    "description": "Comparative analysis query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q176",
+    "query": "What battery chemistry, maximum flight speed, sensor payloads, and neural processors power Project AeroGuide?",
     "category": "multi-part",
-    "description": "Multi-section synthesis linking finance, sustainability, and expansion"
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
   },
   {
-    "query_id": "Q18",
-    "query": "What sensor payloads and neural processors power Project AeroGuide, and what is its maximum flight range?",
+    "query_id": "Q177",
+    "query": "How do NovaTech's sustainability goals align with its Q3 2025 financial results and upcoming 2026 European expansion?",
     "category": "multi-part",
-    "description": "Multi-part query combining sensors, processor, and flight specs"
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "test"
   },
   {
-    "query_id": "Q19",
-    "query": "What battery flight duration, top speed, and neural processor specs are defined for NovaTech's autonomous products?",
-    "category": "disagreement-prone",
-    "description": "Complex multi-attribute query prone to inter-agent retrieval variation"
+    "query_id": "Q178",
+    "query": "What encryption protocols, latency targets, and consensus algorithms are defined for NovaSync v3.2 across edge clusters?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "test"
   },
   {
-    "query_id": "Q20",
-    "query": "Which encryption standard, latency threshold, and consensus algorithm does NovaSync implement?",
-    "category": "disagreement-prone",
-    "description": "Multi-attribute protocol query requiring precise matching across specs"
+    "query_id": "Q179",
+    "query": "What peak wattage, warranty guarantee period, annual degradation rate, and temperature coefficient are certified for NovaSolar-X?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q180",
+    "query": "Who founded NovaTech, where is the enterprise headquartered, what was its Series B funding total, and who led the round?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "val"
+  },
+  {
+    "query_id": "Q181",
+    "query": "What neural inference throughput in TOPS, memory bandwidth, thermal wattage, and microkernel OS operate on the NV-X2 platform?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q182",
+    "query": "What cybersecurity incident detection times (MTTD/MTTR) and post-quantum cryptographic standards are implemented in server nodes?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q183",
+    "query": "What water recycling rate and post-consumer recycled metal percentage contribute to NovaTech's net-zero 2027 goal?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "test"
+  },
+  {
+    "query_id": "Q184",
+    "query": "What CE Mark and EASA regulatory scenario STS-01 milestones must be met prior to opening the Munich Innovation Center?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q185",
+    "query": "How do carbon nanotube thermal interface materials and hydrophobic coatings collectively enhance hardware reliability in arid climates?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q186",
+    "query": "What OTA firmware dual partition safeguards and cryptographic signature formats are required by NovaOS?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q187",
+    "query": "What experimental criteria (Wilcoxon tests, bootstrap CIs, k=3 metrics) govern benchmark evaluation under NovaTech's testing protocol?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q188",
+    "query": "What leadership roles, founding year, and university partnerships support NovaTech's Munich expansion roadmap?",
+    "category": "multi-part",
+    "description": "Multi-hop cross-domain inquiry",
+    "split": "train"
+  },
+  {
+    "query_id": "Q189",
+    "query": "Synthesize information across sections to answer: What battery chemistry, maximum flight speed, sensor payloads, and neural processors power Project AeroGuide?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q190",
+    "query": "Synthesize information across sections to answer: How do NovaTech's sustainability goals align with its Q3 2025 financial results and upcoming 2026 European expansion?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q191",
+    "query": "Synthesize information across sections to answer: What encryption protocols, latency targets, and consensus algorithms are defined for NovaSync v3.2 across edge clusters?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q192",
+    "query": "Synthesize information across sections to answer: What peak wattage, warranty guarantee period, annual degradation rate, and temperature coefficient are certified for NovaSolar-X?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q193",
+    "query": "Synthesize information across sections to answer: Who founded NovaTech, where is the enterprise headquartered, what was its Series B funding total, and who led the round?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q194",
+    "query": "Synthesize information across sections to answer: What neural inference throughput in TOPS, memory bandwidth, thermal wattage, and microkernel OS operate on the NV-X2 platform?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "test"
+  },
+  {
+    "query_id": "Q195",
+    "query": "Synthesize information across sections to answer: What cybersecurity incident detection times (MTTD/MTTR) and post-quantum cryptographic standards are implemented in server nodes?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q196",
+    "query": "Synthesize information across sections to answer: What water recycling rate and post-consumer recycled metal percentage contribute to NovaTech's net-zero 2027 goal?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "val"
+  },
+  {
+    "query_id": "Q197",
+    "query": "Synthesize information across sections to answer: What CE Mark and EASA regulatory scenario STS-01 milestones must be met prior to opening the Munich Innovation Center?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "test"
+  },
+  {
+    "query_id": "Q198",
+    "query": "Synthesize information across sections to answer: How do carbon nanotube thermal interface materials and hydrophobic coatings collectively enhance hardware reliability in arid climates?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q199",
+    "query": "Synthesize information across sections to answer: What OTA firmware dual partition safeguards and cryptographic signature formats are required by NovaOS?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "train"
+  },
+  {
+    "query_id": "Q200",
+    "query": "Synthesize information across sections to answer: What experimental criteria (Wilcoxon tests, bootstrap CIs, k=3 metrics) govern benchmark evaluation under NovaTech's testing protocol?",
+    "category": "multi-part",
+    "description": "Multi-section synthesis query",
+    "split": "train"
   }
 ]

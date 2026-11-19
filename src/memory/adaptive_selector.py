@@ -10,7 +10,7 @@ import config
 class AdaptiveStrategySelector:
     """V2 Machine Learning Strategy Selector learning from historical retrieval outcomes."""
 
-    STRATEGIES = ["BM25 Retrieval", "Semantic Retrieval", "Hybrid Retrieval"]
+    STRATEGIES = ["BM25 Retrieval", "Semantic Retrieval", "Hybrid Retrieval", "RRF Retrieval"]
 
     def __init__(self, model_path: Path = config.MEMORY_DIR / "adaptive_strategy_model.pkl"):
         self.model_path = model_path
@@ -80,17 +80,29 @@ class AdaptiveStrategySelector:
         return np.array(feature_vector, dtype=np.float32)
 
     @classmethod
-    def calculate_reward(cls, metrics: Dict[str, float], confidence_score: float, latency_ms: float) -> float:
-        """Transparent multi-component reward metric in [0.0, 1.0].
+    def calculate_reward(
+        cls,
+        metrics: Dict[str, float],
+        confidence_score: float,
+        latency_ms: float,
+        weights: Dict[str, float] = None
+    ) -> float:
+        """Continuous, bounded multi-objective reward in [0.0, 1.0].
         
-        Reward = 0.40 * MRR + 0.35 * Recall@3 + 0.15 * Confidence - 0.10 * (Latency / 100ms)
+        Reward = w_rank * nDCG@3 + w_rec * Recall@3 + w_conf * Conf + w_lat * R_lat(lat)
+        where R_lat = 1.0 / (1.0 + latency_ms / 250.0).
         """
-        mrr = float(metrics.get("mrr", 0.0))
+        w = weights or {"rank": 0.40, "recall": 0.35, "conf": 0.15, "lat": 0.10}
+        
+        ndcg = float(metrics.get("ndcg_at_k", metrics.get("mrr", 0.0)))
         recall = float(metrics.get("recall_at_k", 0.0))
         conf = float(confidence_score)
-        lat_penalty = min(1.0, float(latency_ms) / 100.0)
+        
+        # Smooth continuous monotonic latency bonus
+        tau = 250.0
+        r_lat = 1.0 / (1.0 + (float(latency_ms) / tau))
 
-        raw_reward = (0.40 * mrr) + (0.35 * recall) + (0.15 * conf) - (0.10 * lat_penalty)
+        raw_reward = (w["rank"] * ndcg) + (w["recall"] * recall) + (w["conf"] * conf) + (w["lat"] * r_lat)
         return round(max(0.0, min(1.0, raw_reward)), 4)
 
     def fit(self, training_records: List[Dict[str, Any]]):
@@ -115,7 +127,8 @@ class AdaptiveStrategySelector:
             stats = rec.get("candidate_stats", {})
             feat = self.extract_features(q_analysis, stats)
             
-            strat = rec.get("selected_strategy", rec.get("actual_strategy", "Hybrid Retrieval"))
+            # Prefer target/oracle strategy if recorded; fallback to selected_strategy
+            strat = rec.get("target_strategy", rec.get("oracle_strategy", rec.get("selected_strategy", "Hybrid Retrieval")))
             if strat in self.STRATEGIES:
                 X.append(feat)
                 y.append(strat)

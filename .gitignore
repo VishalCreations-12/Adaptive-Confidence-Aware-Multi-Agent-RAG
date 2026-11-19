@@ -29,3 +29,6 @@ desktop.ini
 # Task logs & temporary execution files
 *.log
 scratch/
+
+# Internal reviewer revision and paper rewrite materials (do not publish publicly)
+.reviewer_revision/

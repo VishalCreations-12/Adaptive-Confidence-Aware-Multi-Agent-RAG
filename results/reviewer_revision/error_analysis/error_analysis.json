@@ -1,0 +1,133 @@
+{
+  "total_test_queries": 40,
+  "v2_wins_over_fixed_hybrid": 7,
+  "v2_losses_against_fixed_hybrid": 2,
+  "v2_ties_with_fixed_hybrid": 31,
+  "queries_where_v2_differs_from_oracle": 8,
+  "notable_v2_wins": [
+    {
+      "query_id": "Q008",
+      "category": "keyword-heavy",
+      "query": "ML-KEM Kyber-768 ML-DSA Dilithium-3 FIPS 140-3 Level 4 HSM",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "v2_ndcg": 1.0,
+      "hybrid_ndcg": 0.7654,
+      "oracle_ndcg": 1.0
+    },
+    {
+      "query_id": "Q048",
+      "category": "semantic",
+      "query": "Describe the post-quantum cryptographic migration strategy being implemented across server nodes.",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "v2_ndcg": 0.7039,
+      "hybrid_ndcg": 0.4693,
+      "oracle_ndcg": 0.7039
+    },
+    {
+      "query_id": "Q075",
+      "category": "semantic",
+      "query": "Can you elaborate on: Explain the capital expenditure planning supporting NovaTech's upcoming European robotics expansion.",
+      "v2_predicted": "Semantic Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "v2_ndcg": 0.7039,
+      "hybrid_ndcg": 0.5307,
+      "oracle_ndcg": 0.7039
+    },
+    {
+      "query_id": "Q089",
+      "category": "numerical",
+      "query": "What network throughput in Gbps and packet delivery latency in milliseconds does NovaSync v3.2 achieve?",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "v2_ndcg": 0.4693,
+      "hybrid_ndcg": 0.2961,
+      "oracle_ndcg": 0.4693
+    },
+    {
+      "query_id": "Q101",
+      "category": "numerical",
+      "query": "State the exact numerical figure: What were the Q3 2025 quarterly revenue and year-over-year revenue growth percentage?",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "v2_ndcg": 1.0,
+      "hybrid_ndcg": 0.7654,
+      "oracle_ndcg": 1.0
+    }
+  ],
+  "notable_v2_losses": [
+    {
+      "query_id": "Q151",
+      "category": "comparison",
+      "query": "Compare the operational purpose and technical architecture of the NovaSolar-X module with the AeroGuide UAV.",
+      "v2_predicted": "Semantic Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "v2_ndcg": 0.4693,
+      "hybrid_ndcg": 0.7039,
+      "oracle_ndcg": 0.7039
+    },
+    {
+      "query_id": "Q156",
+      "category": "comparison",
+      "query": "Contrast the computational latency of edge-based SLAM on the NV-X2 with cloud-tethered robotic processing.",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "v2_ndcg": 0.0,
+      "hybrid_ndcg": 0.3869,
+      "oracle_ndcg": 0.3869
+    }
+  ],
+  "routing_discrepancies": [
+    {
+      "query_id": "Q043",
+      "category": "semantic",
+      "query": "Describe how decentralized peer-to-peer drone swarms coordinate autonomous search and rescue missions without cloud servers.",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "v2_ndcg": 0.3869,
+      "hybrid_ndcg": 0.3869,
+      "oracle_ndcg": 0.6131
+    },
+    {
+      "query_id": "Q063",
+      "category": "semantic",
+      "query": "Can you elaborate on: Describe how decentralized peer-to-peer drone swarms coordinate autonomous search and rescue missions without cloud servers.",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "v2_ndcg": 0.3869,
+      "hybrid_ndcg": 0.3869,
+      "oracle_ndcg": 0.6131
+    },
+    {
+      "query_id": "Q080",
+      "category": "semantic",
+      "query": "Can you elaborate on: What role does non-parametric Wilcoxon testing play in ensuring rigorous RAG evaluation benchmarks?",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "RRF Retrieval",
+      "v2_ndcg": 0.4693,
+      "hybrid_ndcg": 0.4693,
+      "oracle_ndcg": 0.7654
+    },
+    {
+      "query_id": "Q115",
+      "category": "numerical",
+      "query": "State the exact numerical figure: What is the worst-case interrupt latency in microseconds guaranteed by the NovaOS real-time operating system?",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "v2_ndcg": 0.2961,
+      "hybrid_ndcg": 0.2961,
+      "oracle_ndcg": 0.4693
+    },
+    {
+      "query_id": "Q139",
+      "category": "factual",
+      "query": "Fact check: What international electrical safety and CE Mark certifications have been obtained for NovaSolar-X modules?",
+      "v2_predicted": "BM25 Retrieval",
+      "oracle_strategy": "RRF Retrieval",
+      "v2_ndcg": 0.6131,
+      "hybrid_ndcg": 0.6131,
+      "oracle_ndcg": 0.9197
+    }
+  ]
+}

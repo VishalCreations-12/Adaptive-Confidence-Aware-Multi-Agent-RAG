@@ -1,10 +1,17 @@
-# NovaTech Research Knowledge Base - Recommended Test Questions
-
-1. [Factual] What is the warranty period and energy efficiency of the NovaSolar-X solar panel?
-2. [Keyword-Heavy] NovaSync v3.2 zero-trust encryption AES-256 throughput latency Proof-of-State
-3. [Semantic] How does NovaTech ensure its green manufacturing processes protect the environment and reduce waste?
-4. [Numerical] What is the Q3 2025 revenue figure and the percentage of revenue allocated to R&D?
-5. [Entity] Who are the CEO and CTO of NovaTech, and where is the enterprise headquartered?
-6. [Comparison] Compare the operational characteristics of the NovaSolar-X solar panel with the AeroGuide drone swarm system.
-7. [Multi-Section Integration] How do NovaTech's sustainability goals align with its financial investments and upcoming 2026 European expansion milestones?
-8. [Disagreement-Prone] What battery flight duration, top speed, and neural processor specs are defined for NovaTech's autonomous products?
+# NovaTech Research Knowledge Base - Reference Test Queries
+1. [Keyword-Heavy] NovaSync v3.2 zero-trust encryption AES-256-GCM throughput sub-5ms Proof-of-State PoS-v2
+2. [Keyword-Heavy] NovaSolar-X Model NS-520-QX 28.4% efficiency 30-Year Performance Guarantee Voc 49.8V
+3. [Keyword-Heavy] Project AeroGuide AG-400-UAV 85 km/h NV-2207 FLIR Boson 640x512 micro-LiDAR
+4. [Semantic] How does the monolithic silicon-perovskite tandem design reduce thermalization energy losses?
+5. [Semantic] Explain the cryptographic state-hash consensus mechanism used by NovaSync to achieve Byzantine Fault Tolerance.
+6. [Semantic] Describe how the closed-loop water recycling plant and post-consumer recycled aluminum contribute to NovaTech's net-zero 2027 goal.
+7. [Numerical] What are the Q3 2025 gross revenue, non-GAAP operating margin, and R&D allocation percentage?
+8. [Numerical] What are the peak power output, Voc, and temperature coefficient of the Model NS-520-QX panel?
+9. [Numerical] What are the TOPS, memory bandwidth in GB/s, and power consumption of the NV-X2 neural processor?
+10. [Factual] Who are the Chief Executive Officer, Chief Technology Officer, and CFO of NovaTech?
+11. [Factual] Where is NovaTech enterprise headquartered and where are its European engineering campuses?
+12. [Factual] What quantum-resistant cryptographic algorithms (ML-KEM, ML-DSA) are being integrated into NovaTech hardware?
+13. [Comparison] Compare the operational characteristics and hardware of NovaSolar-X solar panels with the AeroGuide drone swarm.
+14. [Comparison] Compare the throughput and latency of NovaSync v3.2 with legacy enterprise distributed protocols.
+15. [Multi-Part] What battery flight duration, sensor payloads, and neural processor specifications power Project AeroGuide?
+16. [Multi-Part] How do NovaTech's sustainability targets align with its Q3 2025 financial investments and 2026 European expansion?

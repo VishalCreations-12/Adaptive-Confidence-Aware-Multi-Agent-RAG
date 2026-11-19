@@ -1,0 +1,530 @@
+{
+  "train_routing_accuracy": 0.8917,
+  "val_routing_accuracy": 0.8,
+  "test_routing_accuracy": 0.8,
+  "train_queries": 120,
+  "val_queries": 40,
+  "test_queries": 40,
+  "test_predictions": [
+    {
+      "query_id": "Q002",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.72,
+        "Semantic Retrieval": 0.007,
+        "Hybrid Retrieval": 0.221,
+        "RRF Retrieval": 0.052
+      }
+    },
+    {
+      "query_id": "Q006",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.962,
+        "Semantic Retrieval": 0.004,
+        "Hybrid Retrieval": 0.001,
+        "RRF Retrieval": 0.033
+      }
+    },
+    {
+      "query_id": "Q007",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.848,
+        "Semantic Retrieval": 0.012,
+        "Hybrid Retrieval": 0.012,
+        "RRF Retrieval": 0.127
+      }
+    },
+    {
+      "query_id": "Q008",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.552,
+        "Semantic Retrieval": 0.005,
+        "Hybrid Retrieval": 0.406,
+        "RRF Retrieval": 0.037
+      }
+    },
+    {
+      "query_id": "Q009",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.739,
+        "Semantic Retrieval": 0.011,
+        "Hybrid Retrieval": 0.149,
+        "RRF Retrieval": 0.101
+      }
+    },
+    {
+      "query_id": "Q015",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.946,
+        "Semantic Retrieval": 0.009,
+        "Hybrid Retrieval": 0.002,
+        "RRF Retrieval": 0.043
+      }
+    },
+    {
+      "query_id": "Q016",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.861,
+        "Semantic Retrieval": 0.048,
+        "Hybrid Retrieval": 0.005,
+        "RRF Retrieval": 0.086
+      }
+    },
+    {
+      "query_id": "Q018",
+      "category": "keyword-heavy",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.901,
+        "Semantic Retrieval": 0.084,
+        "Hybrid Retrieval": 0.001,
+        "RRF Retrieval": 0.014
+      }
+    },
+    {
+      "query_id": "Q043",
+      "category": "semantic",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.993,
+        "Semantic Retrieval": 0.001,
+        "Hybrid Retrieval": 0.003,
+        "RRF Retrieval": 0.002
+      }
+    },
+    {
+      "query_id": "Q048",
+      "category": "semantic",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.724,
+        "Semantic Retrieval": 0.205,
+        "Hybrid Retrieval": 0.004,
+        "RRF Retrieval": 0.068
+      }
+    },
+    {
+      "query_id": "Q057",
+      "category": "semantic",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.843,
+        "Semantic Retrieval": 0.106,
+        "Hybrid Retrieval": 0.004,
+        "RRF Retrieval": 0.047
+      }
+    },
+    {
+      "query_id": "Q063",
+      "category": "semantic",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.981,
+        "Semantic Retrieval": 0.004,
+        "Hybrid Retrieval": 0.011,
+        "RRF Retrieval": 0.005
+      }
+    },
+    {
+      "query_id": "Q065",
+      "category": "semantic",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.794,
+        "Semantic Retrieval": 0.08,
+        "Hybrid Retrieval": 0.009,
+        "RRF Retrieval": 0.117
+      }
+    },
+    {
+      "query_id": "Q070",
+      "category": "semantic",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.594,
+        "Semantic Retrieval": 0.018,
+        "Hybrid Retrieval": 0.38,
+        "RRF Retrieval": 0.009
+      }
+    },
+    {
+      "query_id": "Q075",
+      "category": "semantic",
+      "predicted_strategy": "Semantic Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.447,
+        "Semantic Retrieval": 0.513,
+        "Hybrid Retrieval": 0.004,
+        "RRF Retrieval": 0.036
+      }
+    },
+    {
+      "query_id": "Q080",
+      "category": "semantic",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "RRF Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.788,
+        "Semantic Retrieval": 0.148,
+        "Hybrid Retrieval": 0.004,
+        "RRF Retrieval": 0.06
+      }
+    },
+    {
+      "query_id": "Q089",
+      "category": "numerical",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.777,
+        "Semantic Retrieval": 0.082,
+        "Hybrid Retrieval": 0.001,
+        "RRF Retrieval": 0.14
+      }
+    },
+    {
+      "query_id": "Q091",
+      "category": "numerical",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.938,
+        "Semantic Retrieval": 0.04,
+        "Hybrid Retrieval": 0.009,
+        "RRF Retrieval": 0.014
+      }
+    },
+    {
+      "query_id": "Q093",
+      "category": "numerical",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.87,
+        "Semantic Retrieval": 0.074,
+        "Hybrid Retrieval": 0.006,
+        "RRF Retrieval": 0.05
+      }
+    },
+    {
+      "query_id": "Q096",
+      "category": "numerical",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.939,
+        "Semantic Retrieval": 0.035,
+        "Hybrid Retrieval": 0.009,
+        "RRF Retrieval": 0.017
+      }
+    },
+    {
+      "query_id": "Q101",
+      "category": "numerical",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.807,
+        "Semantic Retrieval": 0.053,
+        "Hybrid Retrieval": 0.035,
+        "RRF Retrieval": 0.105
+      }
+    },
+    {
+      "query_id": "Q110",
+      "category": "numerical",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.644,
+        "Semantic Retrieval": 0.177,
+        "Hybrid Retrieval": 0.034,
+        "RRF Retrieval": 0.145
+      }
+    },
+    {
+      "query_id": "Q115",
+      "category": "numerical",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.965,
+        "Semantic Retrieval": 0.014,
+        "Hybrid Retrieval": 0.014,
+        "RRF Retrieval": 0.007
+      }
+    },
+    {
+      "query_id": "Q120",
+      "category": "factual",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.915,
+        "Semantic Retrieval": 0.033,
+        "Hybrid Retrieval": 0.001,
+        "RRF Retrieval": 0.051
+      }
+    },
+    {
+      "query_id": "Q130",
+      "category": "factual",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.931,
+        "Semantic Retrieval": 0.049,
+        "Hybrid Retrieval": 0.007,
+        "RRF Retrieval": 0.013
+      }
+    },
+    {
+      "query_id": "Q131",
+      "category": "factual",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.803,
+        "Semantic Retrieval": 0.046,
+        "Hybrid Retrieval": 0.015,
+        "RRF Retrieval": 0.136
+      }
+    },
+    {
+      "query_id": "Q132",
+      "category": "factual",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.822,
+        "Semantic Retrieval": 0.089,
+        "Hybrid Retrieval": 0.062,
+        "RRF Retrieval": 0.028
+      }
+    },
+    {
+      "query_id": "Q139",
+      "category": "factual",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "RRF Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.91,
+        "Semantic Retrieval": 0.014,
+        "Hybrid Retrieval": 0.044,
+        "RRF Retrieval": 0.032
+      }
+    },
+    {
+      "query_id": "Q141",
+      "category": "factual",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.922,
+        "Semantic Retrieval": 0.016,
+        "Hybrid Retrieval": 0.003,
+        "RRF Retrieval": 0.06
+      }
+    },
+    {
+      "query_id": "Q143",
+      "category": "factual",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.884,
+        "Semantic Retrieval": 0.045,
+        "Hybrid Retrieval": 0.004,
+        "RRF Retrieval": 0.068
+      }
+    },
+    {
+      "query_id": "Q151",
+      "category": "comparison",
+      "predicted_strategy": "Semantic Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.397,
+        "Semantic Retrieval": 0.546,
+        "Hybrid Retrieval": 0.007,
+        "RRF Retrieval": 0.05
+      }
+    },
+    {
+      "query_id": "Q156",
+      "category": "comparison",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.695,
+        "Semantic Retrieval": 0.249,
+        "Hybrid Retrieval": 0.004,
+        "RRF Retrieval": 0.052
+      }
+    },
+    {
+      "query_id": "Q159",
+      "category": "comparison",
+      "predicted_strategy": "Semantic Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.275,
+        "Semantic Retrieval": 0.574,
+        "Hybrid Retrieval": 0.107,
+        "RRF Retrieval": 0.044
+      }
+    },
+    {
+      "query_id": "Q165",
+      "category": "comparison",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.552,
+        "Semantic Retrieval": 0.344,
+        "Hybrid Retrieval": 0.017,
+        "RRF Retrieval": 0.087
+      }
+    },
+    {
+      "query_id": "Q167",
+      "category": "comparison",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.89,
+        "Semantic Retrieval": 0.014,
+        "Hybrid Retrieval": 0.069,
+        "RRF Retrieval": 0.027
+      }
+    },
+    {
+      "query_id": "Q177",
+      "category": "multi-part",
+      "predicted_strategy": "Semantic Retrieval",
+      "oracle_strategy": "Semantic Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.386,
+        "Semantic Retrieval": 0.485,
+        "Hybrid Retrieval": 0.007,
+        "RRF Retrieval": 0.122
+      }
+    },
+    {
+      "query_id": "Q178",
+      "category": "multi-part",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.363,
+        "Semantic Retrieval": 0.218,
+        "Hybrid Retrieval": 0.133,
+        "RRF Retrieval": 0.286
+      }
+    },
+    {
+      "query_id": "Q183",
+      "category": "multi-part",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.737,
+        "Semantic Retrieval": 0.085,
+        "Hybrid Retrieval": 0.0,
+        "RRF Retrieval": 0.179
+      }
+    },
+    {
+      "query_id": "Q194",
+      "category": "multi-part",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "RRF Retrieval",
+      "is_correct": false,
+      "probabilities": {
+        "BM25 Retrieval": 0.586,
+        "Semantic Retrieval": 0.128,
+        "Hybrid Retrieval": 0.203,
+        "RRF Retrieval": 0.083
+      }
+    },
+    {
+      "query_id": "Q197",
+      "category": "multi-part",
+      "predicted_strategy": "BM25 Retrieval",
+      "oracle_strategy": "BM25 Retrieval",
+      "is_correct": true,
+      "probabilities": {
+        "BM25 Retrieval": 0.73,
+        "Semantic Retrieval": 0.011,
+        "Hybrid Retrieval": 0.236,
+        "RRF Retrieval": 0.023
+      }
+    }
+  ]
+}

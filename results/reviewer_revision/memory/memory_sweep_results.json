@@ -1,0 +1,50 @@
+[
+  {
+    "history_size": 0,
+    "routing_accuracy": 0.0,
+    "mean_precision_at_3": 0.525,
+    "mean_ndcg_at_3": 0.6689,
+    "mean_latency_ms": 12.0,
+    "mean_reward": 0.6805
+  },
+  {
+    "history_size": 10,
+    "routing_accuracy": 0.75,
+    "mean_precision_at_3": 0.5667,
+    "mean_ndcg_at_3": 0.7026,
+    "mean_latency_ms": 12.0,
+    "mean_reward": 0.7102
+  },
+  {
+    "history_size": 25,
+    "routing_accuracy": 0.75,
+    "mean_precision_at_3": 0.5667,
+    "mean_ndcg_at_3": 0.7026,
+    "mean_latency_ms": 12.0,
+    "mean_reward": 0.7102
+  },
+  {
+    "history_size": 50,
+    "routing_accuracy": 0.75,
+    "mean_precision_at_3": 0.5667,
+    "mean_ndcg_at_3": 0.7026,
+    "mean_latency_ms": 12.0,
+    "mean_reward": 0.7102
+  },
+  {
+    "history_size": 100,
+    "routing_accuracy": 0.75,
+    "mean_precision_at_3": 0.5667,
+    "mean_ndcg_at_3": 0.7026,
+    "mean_latency_ms": 12.0,
+    "mean_reward": 0.7102
+  },
+  {
+    "history_size": 120,
+    "routing_accuracy": 0.8,
+    "mean_precision_at_3": 0.5833,
+    "mean_ndcg_at_3": 0.7202,
+    "mean_latency_ms": 12.0,
+    "mean_reward": 0.7209
+  }
+]

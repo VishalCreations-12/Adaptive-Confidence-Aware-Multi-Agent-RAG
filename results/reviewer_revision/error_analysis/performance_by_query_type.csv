@@ -1,0 +1,49 @@
+category,system,ndcg_at_3,precision_at_3,strategy_accuracy
+comparison,BM25,0.4816,0.4667,0.6
+comparison,Dense,0.512,0.4667,0.4
+comparison,Fixed Hybrid,0.512,0.4667,0.0
+comparison,Oracle Router,0.6059,0.6,1.0
+comparison,Proposed V1 (Heuristic),0.512,0.4667,0.0
+comparison,Proposed V2 (Learned Adaptive),0.4346,0.4,0.6
+comparison,RRF,0.449,0.4,0.0
+comparison,Tuned Hybrid,0.512,0.4667,0.0
+factual,BM25,0.6578,0.4762,0.8571
+factual,Dense,0.5291,0.4286,0.0
+factual,Fixed Hybrid,0.6578,0.4762,0.0
+factual,Oracle Router,0.7016,0.5238,1.0
+factual,Proposed V1 (Heuristic),0.6243,0.4286,0.0
+factual,Proposed V2 (Learned Adaptive),0.6578,0.4762,0.8571
+factual,RRF,0.6255,0.5238,0.0
+factual,Tuned Hybrid,0.6578,0.4762,0.0
+keyword-heavy,BM25,0.912,0.6667,1.0
+keyword-heavy,Dense,0.7667,0.5417,0.0
+keyword-heavy,Fixed Hybrid,0.805,0.5417,0.0
+keyword-heavy,Oracle Router,0.912,0.6667,1.0
+keyword-heavy,Proposed V1 (Heuristic),0.8343,0.5833,0.875
+keyword-heavy,Proposed V2 (Learned Adaptive),0.8343,0.5833,1.0
+keyword-heavy,RRF,0.8827,0.625,0.0
+keyword-heavy,Tuned Hybrid,0.805,0.5417,0.0
+multi-part,BM25,0.8469,0.7333,0.6
+multi-part,Dense,1.0,0.9333,0.2
+multi-part,Fixed Hybrid,0.8939,0.8,0.0
+multi-part,Oracle Router,1.0,0.9333,1.0
+multi-part,Proposed V1 (Heuristic),0.8939,0.8,0.0
+multi-part,Proposed V2 (Learned Adaptive),0.9531,0.8667,0.8
+multi-part,RRF,0.9408,0.8667,0.0
+multi-part,Tuned Hybrid,0.8939,0.8,0.0
+numerical,BM25,0.7131,0.5238,0.8571
+numerical,Dense,0.6708,0.4762,0.1429
+numerical,Fixed Hybrid,0.6548,0.4762,0.0
+numerical,Oracle Router,0.7378,0.5238,1.0
+numerical,Proposed V1 (Heuristic),0.5996,0.4286,0.0
+numerical,Proposed V2 (Learned Adaptive),0.7131,0.5238,0.8571
+numerical,RRF,0.6796,0.5238,0.0
+numerical,Tuned Hybrid,0.6548,0.4762,0.0
+semantic,BM25,0.5711,0.5417,0.5
+semantic,Dense,0.5129,0.375,0.375
+semantic,Fixed Hybrid,0.5124,0.4583,0.0
+semantic,Oracle Router,0.657,0.5417,1.0
+semantic,Proposed V1 (Heuristic),0.5124,0.4583,0.0
+semantic,Proposed V2 (Learned Adaptive),0.5634,0.5,0.625
+semantic,RRF,0.5576,0.4583,0.0
+semantic,Tuned Hybrid,0.5124,0.4583,0.0

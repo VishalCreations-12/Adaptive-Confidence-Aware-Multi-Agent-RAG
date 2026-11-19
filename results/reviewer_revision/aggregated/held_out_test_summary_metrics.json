@@ -1,0 +1,98 @@
+[
+  {
+    "system": "BM25",
+    "precision_at_3": 0.5667,
+    "recall_at_3": 0.6536,
+    "mrr": 0.8708,
+    "ndcg_at_3": 0.7026,
+    "context_relevance": 0.8888,
+    "strategy_accuracy": 0.75,
+    "confidence": 0.5,
+    "latency_ms": 2.5,
+    "reward": 0.6838
+  },
+  {
+    "system": "Dense",
+    "precision_at_3": 0.5167,
+    "recall_at_3": 0.5849,
+    "mrr": 0.8542,
+    "ndcg_at_3": 0.6549,
+    "context_relevance": 0.8012,
+    "strategy_accuracy": 0.175,
+    "confidence": 0.55,
+    "latency_ms": 10.5,
+    "reward": 0.6452
+  },
+  {
+    "system": "Fixed Hybrid",
+    "precision_at_3": 0.525,
+    "recall_at_3": 0.6071,
+    "mrr": 0.8708,
+    "ndcg_at_3": 0.6689,
+    "context_relevance": 0.9138,
+    "strategy_accuracy": 0.0,
+    "confidence": 0.65,
+    "latency_ms": 13.0,
+    "reward": 0.6726
+  },
+  {
+    "system": "RRF",
+    "precision_at_3": 0.5583,
+    "recall_at_3": 0.6438,
+    "mrr": 0.8458,
+    "ndcg_at_3": 0.6902,
+    "context_relevance": 0.895,
+    "strategy_accuracy": 0.0,
+    "confidence": 0.68,
+    "latency_ms": 14.5,
+    "reward": 0.6979
+  },
+  {
+    "system": "Tuned Hybrid",
+    "precision_at_3": 0.525,
+    "recall_at_3": 0.6071,
+    "mrr": 0.8708,
+    "ndcg_at_3": 0.6689,
+    "context_relevance": 0.9138,
+    "strategy_accuracy": 0.0,
+    "confidence": 0.67,
+    "latency_ms": 13.2,
+    "reward": 0.6756
+  },
+  {
+    "system": "Proposed V1 (Heuristic)",
+    "precision_at_3": 0.5167,
+    "recall_at_3": 0.5946,
+    "mrr": 0.8708,
+    "ndcg_at_3": 0.6593,
+    "context_relevance": 0.9075,
+    "strategy_accuracy": 0.175,
+    "confidence": 0.6612,
+    "latency_ms": 12.2402,
+    "reward": 0.6663
+  },
+  {
+    "system": "Proposed V2 (Learned Adaptive)",
+    "precision_at_3": 0.55,
+    "recall_at_3": 0.6265,
+    "mrr": 0.8833,
+    "ndcg_at_3": 0.6929,
+    "context_relevance": 0.895,
+    "strategy_accuracy": 0.8,
+    "confidence": 0.6772,
+    "latency_ms": 14.5602,
+    "reward": 0.6926
+  },
+  {
+    "system": "Oracle Router",
+    "precision_at_3": 0.6167,
+    "recall_at_3": 0.6982,
+    "mrr": 0.9333,
+    "ndcg_at_3": 0.7664,
+    "context_relevance": 0.8888,
+    "strategy_accuracy": 1.0,
+    "confidence": 0.85,
+    "latency_ms": 14.0,
+    "reward": 0.7731
+  }
+]
